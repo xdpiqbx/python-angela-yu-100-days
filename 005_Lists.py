@@ -6,11 +6,14 @@ import random
 # Any type of data in list
 # Have an order
 
-names = ['John', 'Hanna', 'Emmy', 'Bill', 'Sarah']
+names = ['John', 'Hanna', 'Emmy', 'Bill', 'Sarah', "Elizabeth"]
 print(names)
 print(names[2])
-print(names[-1]) # last item
-print(names[2:]) # ['Emmy', 'Bill', 'Sarah']
+print(names[-1])  # last item
+print(names[2:])  # ['Emmy', 'Bill', 'Sarah', 'Elizabeth']
+print(names[2:5])  # ['Emmy', 'Bill', 'Sarah']
+print(names[1:4:2])  # ['Hanna', 'Bill'] # [from : to : step]
+print(names[::-1])  # ['Elizabeth', 'Sarah', 'Bill', 'Emmy', 'Hanna', 'John'] # Reversed list
 
 names.append("Batman!")
 
