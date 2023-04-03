@@ -4,17 +4,23 @@ import pandas
 
 CANVAS_IMAGE_WIDTH = 800
 CANVAS_IMAGE_HEIGHT = 526
+
 CARD_FRONT_IMAGE = "images/card_front.png"
 CARD_BACK_IMAGE = "images/card_back.png"
 YES_IMAGE = "images/right.png"  # ✅
 NO_IMAGE = "images/wrong.png"   # ❌
+
 CSV_FILE = "data/french_words.csv"
+CSV_WORDS_TO_LEARN = "data/words_to_learn.csv"
+
 BACKGROUND_COLOR = "#B1DDC6"
 WHITE = "#FFFFFF"
 BLACK = "#000000"
+
 FONT_NAME = "Arial"
 FONT_LANGUAGE = (FONT_NAME, 40, "italic")
 FONT_WORD = (FONT_NAME, 60, "bold")
+
 WINDOW_PADDING = 50
 LABEL_LANGUAGE_POSITION = {
     "x": CANVAS_IMAGE_WIDTH / 2,
@@ -25,9 +31,35 @@ LABEL_WORD_POSITION = {
     "y": 263
 }
 
-data = pandas.read_csv(CSV_FILE)
-words_list_with_translate = data.to_dict(orient="records")
+words_list_to_learn = {}
 word_item = {}
+
+def create_words_to_learn():
+    pandas.DataFrame(pandas.read_csv(CSV_FILE)).to_csv(CSV_WORDS_TO_LEARN, index=False)
+    return pandas.read_csv(CSV_WORDS_TO_LEARN).to_dict(orient="records")
+
+try:
+    words_list_to_learn = pandas.read_csv(CSV_WORDS_TO_LEARN).to_dict(orient="records")
+except FileNotFoundError:
+    words_list_to_learn = create_words_to_learn()
+except pandas.errors.EmptyDataError:
+    words_list_to_learn = create_words_to_learn()
+
+
+# ---------- words_to_learn.csv ----------
+def known_word():
+    try:
+        words_list_to_learn.remove(word_item)
+        pandas.DataFrame(words_list_to_learn).to_csv(CSV_WORDS_TO_LEARN, index=False)
+        next_word()
+    except IndexError:
+        card_canvas.itemconfig(language_text_canvas, text="French / English", fill=BLACK)
+        card_canvas.itemconfig(word_text_canvas, text="that's all!", fill=BLACK)
+        card_canvas.itemconfig(card_on_bg, image=CARD_PHOTO_IMAGE_F)
+    except ValueError:
+        print("Value error")
+    except AttributeError:
+        print("Attribute Error")
 
 
 # ---------- NEXT WORD ----------
@@ -35,11 +67,18 @@ def next_word():
     global word_item
     global flip_timer
     window.after_cancel(flip_timer)
-    word_item = random.choice(words_list_with_translate)
-    card_canvas.itemconfig(language_text_canvas, text="French", fill=BLACK)
-    card_canvas.itemconfig(word_text_canvas, text=word_item["French"], fill=BLACK)
-    card_canvas.itemconfig(card_on_bg, image=CARD_PHOTO_IMAGE_F)
-    flip_timer = window.after(3000, func=flip_card)
+    try:
+        word_item = random.choice(words_list_to_learn)
+        card_canvas.itemconfig(language_text_canvas, text="French", fill=BLACK)
+        card_canvas.itemconfig(word_text_canvas, text=word_item["French"], fill=BLACK)
+        card_canvas.itemconfig(card_on_bg, image=CARD_PHOTO_IMAGE_F)
+        flip_timer = window.after(3000, func=flip_card)
+    except KeyError:
+        print("word_item does not exists")
+    except IndexError:
+        print("All Done =)")
+        window.destroy()
+
 
 
 # ---------- FLIP CARD ----------
@@ -79,7 +118,7 @@ card_canvas.grid(row=0, column=0, columnspan=2)
 
 # ----- Button
 YES = PhotoImage(file=YES_IMAGE)
-yes_button = Button(image=YES, command=next_word, highlightthickness=0)
+yes_button = Button(image=YES, command=known_word, highlightthickness=0)
 yes_button.grid(row=1, column=0)
 
 NO = PhotoImage(file=NO_IMAGE)
