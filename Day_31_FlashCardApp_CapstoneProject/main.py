@@ -1,5 +1,5 @@
 import random
-from tkinter import Tk, PhotoImage, Canvas, Button, Label
+from tkinter import Tk, PhotoImage, Canvas, Button
 import pandas
 
 CANVAS_IMAGE_WIDTH = 800
@@ -11,6 +11,7 @@ NO_IMAGE = "images/wrong.png"   # ❌
 CSV_FILE = "data/french_words.csv"
 BACKGROUND_COLOR = "#B1DDC6"
 WHITE = "#FFFFFF"
+BLACK = "#000000"
 FONT_NAME = "Arial"
 FONT_LANGUAGE = (FONT_NAME, 40, "italic")
 FONT_WORD = (FONT_NAME, 60, "bold")
@@ -26,38 +27,55 @@ LABEL_WORD_POSITION = {
 
 data = pandas.read_csv(CSV_FILE)
 words_list_with_translate = data.to_dict(orient="records")
+word_item = {}
 
 
 # ---------- NEXT WORD ----------
 def next_word():
+    global word_item
+    global flip_timer
+    window.after_cancel(flip_timer)
     word_item = random.choice(words_list_with_translate)
-    canvas.itemconfig(language_text_canvas, text="French")
-    canvas.itemconfig(word_text_canvas, text=word_item["French"])
+    card_canvas.itemconfig(language_text_canvas, text="French", fill=BLACK)
+    card_canvas.itemconfig(word_text_canvas, text=word_item["French"], fill=BLACK)
+    card_canvas.itemconfig(card_on_bg, image=CARD_PHOTO_IMAGE_F)
+    flip_timer = window.after(3000, func=flip_card)
+
+
+# ---------- FLIP CARD ----------
+def flip_card():
+    global word_item
+    card_canvas.itemconfig(language_text_canvas, text="English", fill=WHITE)
+    card_canvas.itemconfig(word_text_canvas, text=word_item["English"], fill=WHITE)
+    card_canvas.itemconfig(card_on_bg, image=CARD_PHOTO_IMAGE_B)
 
 
 window = Tk()
 window.title("Flash Cards")
 window.config(padx=WINDOW_PADDING, pady=WINDOW_PADDING, bg=BACKGROUND_COLOR)
 
-CARD_IMAGE = PhotoImage(file=CARD_FRONT_IMAGE)
+CARD_PHOTO_IMAGE_F = PhotoImage(file=CARD_FRONT_IMAGE)
+CARD_PHOTO_IMAGE_B = PhotoImage(file=CARD_BACK_IMAGE)
 
-canvas = Canvas(
+flip_timer = window.after(3000, func=flip_card)
+
+card_canvas = Canvas(
     width=CANVAS_IMAGE_WIDTH,
     height=CANVAS_IMAGE_HEIGHT,
     highlightthickness=0,
     bg=BACKGROUND_COLOR
 )
 
-canvas.create_image(
+card_on_bg = card_canvas.create_image(
     CANVAS_IMAGE_WIDTH/2,
     CANVAS_IMAGE_HEIGHT/2,
-    image=CARD_IMAGE
+    image=CARD_PHOTO_IMAGE_F
 )
 
-language_text_canvas = canvas.create_text(400, 150, text="Placeholder", font=FONT_LANGUAGE)
-word_text_canvas = canvas.create_text(400, 263, text="Placeholder", font=FONT_WORD)
+language_text_canvas = card_canvas.create_text(400, 150, text="Placeholder", font=FONT_LANGUAGE)
+word_text_canvas = card_canvas.create_text(400, 263, text="Placeholder", font=FONT_WORD)
 
-canvas.grid(row=0, column=0, columnspan=2)
+card_canvas.grid(row=0, column=0, columnspan=2)
 
 # ----- Button
 YES = PhotoImage(file=YES_IMAGE)
