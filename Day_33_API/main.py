@@ -10,3 +10,4 @@ print(response.json())  # {'timestamp': 1680628456, 'message': 'success', 'iss_p
 data = response.json()
 
 print((data['iss_position']['latitude'], data['iss_position']['longitude']))
+
