@@ -1,4 +1,5 @@
 import requests
+
 from datetime import datetime
 
 from dotenv import dotenv_values
@@ -35,4 +36,3 @@ for item in next_12_hours_weather:
         print(item["weather"][0])
         print("Bring an umbrella")
         break
-
