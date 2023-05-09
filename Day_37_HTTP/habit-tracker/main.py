@@ -35,15 +35,15 @@ GRAPH_ID = "graph1"
 # -------------------------------------------------------------------------------------
 
 # pixel_creation_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}"
-# # today = datetime(year=2023, month=5, day=7).strftime("%Y%m%d")
-# today = datetime.now().strftime("%Y%m%d")
-# pixel_data = {
-#     "date": today,
-#     "quantity": "12.4"
-# }
-# response = requests.post(url=pixel_creation_endpoint, json=pixel_data, headers={"X-USER-TOKEN": TOKEN})
-# print(response.text)
-# print(today)
+# # # today = datetime(year=2023, month=5, day=7).strftime("%Y%m%d")
+# # today = datetime.now().strftime("%Y%m%d")
+# # pixel_data = {
+# #     "date": today,
+# #     "quantity": "12.4"
+# # }
+# # response = requests.post(url=pixel_creation_endpoint, json=pixel_data, headers={"X-USER-TOKEN": TOKEN})
+# # print(response.text)
+# # print(today)
 
 # ------------------------------------------------------------------------------------- UPDATE (PUT)
 
