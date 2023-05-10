@@ -21,7 +21,6 @@ def post_response_from_nutritionix(query):
         "x-app-key": API_KEY,
         "Content-Type": "application/json"
     }
-
     request_body = {
      "query": query,
      "gender": "female",
