@@ -55,6 +55,7 @@ def post_exercises_to_sheety(exercises):
         # response = requests.post(url=sheety_url, json=request_body)
         # print(response.text)
 
+
 response = post_response_from_nutritionix(exercise_query)
 
 post_exercises_to_sheety(response.json()["exercises"])
