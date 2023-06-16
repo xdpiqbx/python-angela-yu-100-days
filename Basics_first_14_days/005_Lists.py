@@ -145,27 +145,27 @@ import math
 #     return result_list
 # print(get_plan(10, 4, 30))
 
-from math import floor
-def get_speed_statistic(test_results: list) -> list:
-    list_size = len(test_results)
-    if list_size == 0:
-        return [0, 0, 0]
-
-    sum_of_all = 0
-    min_speed = test_results[0]
-    max_speed = test_results[0]
-
-    for speed in test_results:
-        sum_of_all += speed
-        if speed > max_speed:
-            max_speed = speed
-        elif speed < min_speed:
-            min_speed = speed
-
-    avg = floor(sum_of_all / list_size)
-    return [min_speed, max_speed, avg]
-
-print(get_speed_statistic([9]))
+# from math import floor
+# def get_speed_statistic(test_results: list) -> list:
+#     list_size = len(test_results)
+#     if list_size == 0:
+#         return [0, 0, 0]
+#
+#     sum_of_all = 0
+#     min_speed = test_results[0]
+#     max_speed = test_results[0]
+#
+#     for speed in test_results:
+#         sum_of_all += speed
+#         if speed > max_speed:
+#             max_speed = speed
+#         elif speed < min_speed:
+#             min_speed = speed
+#
+#     avg = floor(sum_of_all / list_size)
+#     return [min_speed, max_speed, avg]
+#
+# print(get_speed_statistic([9]))
 
 
 
