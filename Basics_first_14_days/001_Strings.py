@@ -48,3 +48,21 @@ print('course' in course)  # True if 'course' in course
 # ------------------------------------------------ Split string
 string = "Hello world Python here"
 print(string.split(" "))
+
+# ------------------------------------------------ Concatenation
+text = "Gaius Julius Caesar"
+greeting = "Hi, " + text + "!"  #  Here we use concatenation
+
+age = 24
+name = "John"
+message = "Hi! My name is " + name + ". I'm " + age  # Error
+
+# ------------------------------------------------ Interpolation
+message = f"Hi! My name is {name}. I'm {age}."
+print(message)  # Hi! My name is John. I'm 24.
+
+# ------------------------------------------------ format
+message = "Hi! My name is {name}. I'm {age}.".format(name=name, age=age)
+print(message)  # Hi! My name is John. I'm 24.
+
+
