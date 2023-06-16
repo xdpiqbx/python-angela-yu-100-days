@@ -89,3 +89,24 @@ month = int(input("Enter a month: "))
 days = days_in_month(year, month)
 print(days)
 
+
+# ----------------------------------------------- Operator pass
+def diff(x, y):
+    pass
+
+
+# ----------------------------------------------- types
+def get_string() -> str:
+    greeting = "Hello, Mate academy!"
+    return greeting
+
+
+def greeter(name: str) -> str:
+    hello = f"Hi, {name}!"
+    return hello
+
+def greeter(name: str, part_of_the_day: str) -> str:
+    return f"Good {part_of_the_day}, {name}!"
+
+def double(number: int) -> int:
+    return number * 2
