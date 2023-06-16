@@ -1,39 +1,64 @@
-# +
-# -
-# *
-# /
-# // - always return integer
-# % - module
-# ** - pow
-# += -= *= ....
+# # +
+# # -
+# # *
+# # /
+# # // - always return integer
+# # % - module
+# # ** - pow
+# # += -= *= ....
+# 
+# import math  # https://docs.python.org/3/library/math.html
+# 
+# x = 2.9
+# print(round(x))  # 3
+# print(abs(-2.9))  # 2.9
+# 
+# math.ceil(x)  # 3
+# math.floor(x)  # 2
+# 
+# # ------------------------------------------------ Task
+# 
+# # If the bill was $150.00, split between 5 people, with 12% tip.
+# 
+# # Each person should pay (150.00 / 5) * 1.12 = 33.6
+# # Format the result to 2 decimal places = 33.60
+# 
+# # Tip: There are 2 ways to round a number.
+# # You might have to do some Googling to solve this.💪
+# 
+# print("Welcom to the tip calculator")
+# bill = float(input("What was hte total bill? "))
+# percentage = int(input("What percentage tip would you like to give? 10, 12 ok 15? "))
+# people_to_split = int(input("How many people to split the bill? "))
+# 
+# percentage = (percentage / 100) + 1
+# result = round(((bill / people_to_split) * percentage), 2)
+# 
+# strTipFormatted = "{:.2f}".format((bill / people_to_split) * percentage)
+# 
+# print(f"Each person should pay: {result}")
 
-import math  # https://docs.python.org/3/library/math.html
+def get_largest_expression_result(a, b):
+    # write your code here
+    summ = a + b
+    subtraction = a - b
+    mult = a * b
+    division = a / b
 
-x = 2.9
-print(round(x))  # 3
-print(abs(-2.9))  # 2.9
+    print(f"summ - {summ}")
+    print(f"subtraction - {subtraction}")
+    print(f"mult - {mult}")
+    print(f"division - {division}")
 
-math.ceil(x)  # 3
-math.floor(x)  # 2
+    largest = summ
 
-# ------------------------------------------------ Task
+    if subtraction > largest:
+        largest = subtraction
+    if mult > largest:
+        largest = mult
+    if division > largest:
+        largest = division
 
-# If the bill was $150.00, split between 5 people, with 12% tip.
+    return largest
 
-# Each person should pay (150.00 / 5) * 1.12 = 33.6
-# Format the result to 2 decimal places = 33.60
-
-# Tip: There are 2 ways to round a number.
-# You might have to do some Googling to solve this.💪
-
-print("Welcom to the tip calculator")
-bill = float(input("What was hte total bill? "))
-percentage = int(input("What percentage tip would you like to give? 10, 12 ok 15? "))
-people_to_split = int(input("How many people to split the bill? "))
-
-percentage = (percentage / 100) + 1
-result = round(((bill / people_to_split) * percentage), 2)
-
-strTipFormatted = "{:.2f}".format((bill / people_to_split) * percentage)
-
-print(f"Each person should pay: {result}")
+print(get_largest_expression_result(-1, -100))

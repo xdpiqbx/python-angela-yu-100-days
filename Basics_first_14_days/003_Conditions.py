@@ -159,3 +159,5 @@ else:
             print("Wrong door. Game Over")
         else:
             print("You Win!")
+
+# ------------------------------------------- Exercise Treasure Island
