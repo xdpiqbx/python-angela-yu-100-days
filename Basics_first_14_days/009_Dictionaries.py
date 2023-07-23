@@ -8,6 +8,7 @@ customer = {
 print(customer.items())  # dict_items([('name', 'John'), ('age', 30), ('is_verified', True)])
 print(customer.values())  # dict_values(['John', 30, True])
 print(customer.keys())  # dict_keys(['name', 'age', 'is_verified'])
+print(customer.get("age"))  # 30 or None if age not exists
 
 customer["birthday"] = "Jan 1 1980"  # Add new field to dict
 
