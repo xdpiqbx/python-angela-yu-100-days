@@ -5,7 +5,7 @@ import os
 import json
 from time import sleep
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime as dt, timedelta
 from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
 
@@ -59,45 +59,69 @@ with open('./resources/prices_from_sheety.json') as json_file:
 #     requests.put(url=f"{url}/{item['id']}", headers=headers, json=request_body)
 
 # === https://api.tequila.kiwi.com
+iso_8601_format = '%Y-%m-%dT%H:%M:%S.%fZ'
 tequila_kivi_url = "https://api.tequila.kiwi.com/v2/search"
 headers = {"apikey": os.environ["KIWI_API"]}
-tomorrow = datetime.now() + timedelta(days=1)
+tomorrow = dt.now() + timedelta(days=1)
 # cheapest fly to the next 6 month
-flights = list()
+to_city_flights = dict()
 for city in cities_dict['prices']:
+    flights = list()
     params = {
         'accept': 'application/json',
         'fly_from': 'LON',  # London[LON] # Poland: Warsaw[WAW] | Rzeszów[RZE] | Kraków[KRK]
         'fly_to': city['iataCode'],
-        'max_stopovers': 0,
         'date_from': tomorrow.strftime('%d/%m/%Y'),
         'date_to': (tomorrow + relativedelta(months=6)).strftime('%d/%m/%Y'),
+        'selected_cabins': 'M',  # M (economy), W (economy premium), C (business), or F (first class)
+        'max_stopovers': 0,  # 0 it means direct flight
         'nights_in_dst_from': 6,
-        'nights_in_dst_to': 27,
+        'nights_in_dst_to': 13,
         'curr': 'GBP',
-        'price_to': city['lowestPrice'], # 'price_from': 800,
+        'price_to': city['lowestPrice'],  # 'price_from': 800,
     }
     response = requests.get(url=tequila_kivi_url, params=params, headers=headers)
-    sleep(0.3)
     all_fly_data = response.json()["data"]
+    # sleep(0.3)
 
+    price = city['lowestPrice']
     for fly_data in all_fly_data:
+        if price < fly_data['conversion']['GBP']:
+            price = fly_data['conversion']['GBP']
+            continue
+        return_home_date = dt.strptime(fly_data['local_arrival'], iso_8601_format) + relativedelta(days=fly_data['nightsInDest'])
         flights.append({
             'cityFrom': fly_data['cityFrom'],
             'flyFrom': fly_data['flyFrom'],
             'cityTo': fly_data['cityTo'],
             'flyTo': fly_data['flyTo'],
-            'price': fly_data['conversion'],  # Price
+            'price_gbp': fly_data['conversion']['GBP'],  # Price
+            'nightsInDest': fly_data['nightsInDest'],
             'local_departure': fly_data['local_departure'],
             'local_arrival': fly_data['local_arrival'],
+            'return_home': return_home_date.strftime(iso_8601_format),
             'total_duration': fly_data['duration']['total'],
             'virtual_interlining': fly_data['virtual_interlining']
         })
+    to_city_flights[city['city']] = flights
+print(to_city_flights)
 
-print(len(flights))
-print(flights)
-sorted_by_duration = sorted(flights, key=lambda x: x['total_duration'])
-print(sorted_by_duration)
+
+# for item in to_city_flights:
+#     to_city_flights[item] = sorted(to_city_flights.get(item), key=lambda x: x['local_departure'])
+
+# list_of_result_tickets = list()
+# for city in to_city_flights:
+#     local_departure = "2020-01-01T01:00:00.000Z"
+#     for item in to_city_flights[city]:
+#         if item['local_departure'] == local_departure:
+#             continue
+#         local_departure = item['local_departure']
+#         list_of_result_tickets.append(item)
+# print(list_of_result_tickets)
+
+# sorted_by_duration = sorted(flights, key=lambda x: x['total_duration'])
+# print(sorted_by_duration)
 # ---------------------------
 # date = {
 #     'departure': datetime.strptime(fly_data['local_departure'], '%Y-%m-%dT%H:%M:%S.%fZ'),
