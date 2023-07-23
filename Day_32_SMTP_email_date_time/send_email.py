@@ -2,6 +2,9 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 
+from dotenv import load_dotenv
+load_dotenv()
+
 def send_email(subject, body, sender, recipients, password):
     msg = MIMEText(body)
     msg['Subject'] = subject
@@ -16,5 +19,5 @@ send_email(
     body="This is the body of the text message\nCall me later =) 465-65-44",
     sender=os.environ["MAIN_MAIL"],
     recipients=[os.environ["SECONDARY_MAIL"]],
-    password=os.environ["PWD"],
+    password=os.environ["GOOGLE_APP_PWD"],
 )
