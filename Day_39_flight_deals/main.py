@@ -92,15 +92,15 @@ print(len(flights))
 print(flights)
 sorted_by_duration = sorted(flights, key=lambda x: x['total_duration'])
 print(sorted_by_duration)
-    # ---------------------------
-    # date = {
-    #     'departure': datetime.strptime(fly_data['local_departure'], '%Y-%m-%dT%H:%M:%S.%fZ'),
-    #     'arrival': datetime.strptime(fly_data['local_arrival'], '%Y-%m-%dT%H:%M:%S.%fZ')
-    # }
-    # print(f"{fly_data['cityFrom']} -> {fly_data['cityTo']}[{fly_data['flyTo']}] Price: {fly_data['conversion']}")
-    # print(f"Local Departure from {fly_data['cityFrom']}: {date.get('departure').strftime('%d.%m.%Y %H:%M:%S')}")
-    # for route in fly_data['route']:
-    #     print(f"\t{route['cityFrom']}[{route['cityCodeFrom']}]->{route['cityTo']}[{route['cityCodeTo']}]")
-    # print(f"Local Arrival to {fly_data['cityTo']}: {date.get('arrival').strftime('%d.%m.%Y %H:%M:%S')}")
-    # print(f"Total in the way: {date.get('arrival') - date.get('departure')}")
-    # print()
+# ---------------------------
+# date = {
+#     'departure': datetime.strptime(fly_data['local_departure'], '%Y-%m-%dT%H:%M:%S.%fZ'),
+#     'arrival': datetime.strptime(fly_data['local_arrival'], '%Y-%m-%dT%H:%M:%S.%fZ')
+# }
+# print(f"{fly_data['cityFrom']} -> {fly_data['cityTo']}[{fly_data['flyTo']}] Price: {fly_data['conversion']}")
+# print(f"Local Departure from {fly_data['cityFrom']}: {date.get('departure').strftime('%d.%m.%Y %H:%M:%S')}")
+# for route in fly_data['route']:
+#     print(f"\t{route['cityFrom']}[{route['cityCodeFrom']}]->{route['cityTo']}[{route['cityCodeTo']}]")
+# print(f"Local Arrival to {fly_data['cityTo']}: {date.get('arrival').strftime('%d.%m.%Y %H:%M:%S')}")
+# print(f"Total in the way: {date.get('arrival') - date.get('departure')}")
+# print()
