@@ -5,7 +5,7 @@ import os
 import json
 from time import sleep
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
 
@@ -26,8 +26,8 @@ load_dotenv()
 #     json.dump(response.json(), json_file, indent=4)
 
 # ===== read saved data from JSON
-# with open('./resources/prices_from_sheety.json') as json_file:
-#     cities_dict = json.load(json_file)  # dict
+with open('./resources/prices_from_sheety.json') as json_file:
+    cities_dict = json.load(json_file)  # dict
 
 # ==== convert data from json to generator for using in tequila_kivi
 # cities = ({'id': city['id'], 'city': city['city']} for city in cities_dict['prices'])
@@ -61,33 +61,39 @@ load_dotenv()
 # === https://api.tequila.kiwi.com
 tequila_kivi_url = "https://api.tequila.kiwi.com/v2/search"
 headers = {"apikey": os.environ["KIWI_API"]}
-now = datetime.now()
-params = {
-    'accept': 'application/json',
-    'fly_from': 'KRK',  # Poland: Rzeszów[RZE](Port lotniczy Rzeszów-Jasionka) | Warsaw[WAW] | Kraków[KRK]
-    'fly_to': 'SYD',
-    'date_from': now.strftime('%d/%m/%Y'),
-    # 'date_to': (now + relativedelta(months=6)).strftime('%d/%m/%Y'),
-    'curr': 'GBP',
-    'price_from': 800,
-    'price_to': 1300,
-}
+tomorrow = datetime.now() + timedelta(days=1)
 # cheapest fly to the next 6 month
-response = requests.get(url=tequila_kivi_url, params=params, headers=headers)
-all_fly_data = response.json()["data"]
 flights = list()
-for fly_data in all_fly_data:
-    flights.append({
-        'cityFrom': fly_data['cityFrom'],
-        'flyFrom': fly_data['flyFrom'],
-        'cityTo': fly_data['cityTo'],
-        'flyTo': fly_data['flyTo'],
-        'price': fly_data['conversion'],  # Price
-        'local_departure': fly_data['local_departure'],
-        'local_arrival': fly_data['local_arrival'],
-        'total_duration': fly_data['duration']['total'],
-        'virtual_interlining': fly_data['virtual_interlining']
-    })
+for city in cities_dict['prices']:
+    params = {
+        'accept': 'application/json',
+        'fly_from': 'LON',  # London[LON] # Poland: Warsaw[WAW] | Rzeszów[RZE] | Kraków[KRK]
+        'fly_to': city['iataCode'],
+        'max_stopovers': 0,
+        'date_from': tomorrow.strftime('%d/%m/%Y'),
+        'date_to': (tomorrow + relativedelta(months=6)).strftime('%d/%m/%Y'),
+        'nights_in_dst_from': 6,
+        'nights_in_dst_to': 27,
+        'curr': 'GBP',
+        'price_to': city['lowestPrice'], # 'price_from': 800,
+    }
+    response = requests.get(url=tequila_kivi_url, params=params, headers=headers)
+    sleep(0.3)
+    all_fly_data = response.json()["data"]
+
+    for fly_data in all_fly_data:
+        flights.append({
+            'cityFrom': fly_data['cityFrom'],
+            'flyFrom': fly_data['flyFrom'],
+            'cityTo': fly_data['cityTo'],
+            'flyTo': fly_data['flyTo'],
+            'price': fly_data['conversion'],  # Price
+            'local_departure': fly_data['local_departure'],
+            'local_arrival': fly_data['local_arrival'],
+            'total_duration': fly_data['duration']['total'],
+            'virtual_interlining': fly_data['virtual_interlining']
+        })
+
 print(len(flights))
 print(flights)
 sorted_by_duration = sorted(flights, key=lambda x: x['total_duration'])
