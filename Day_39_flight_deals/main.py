@@ -22,11 +22,11 @@ load_dotenv()
 # response = requests.get(url=url, headers=headers)
 
 # ===== save data from sheety to JSON
-# with open('./resources/prices_from_sheety.json', 'w') as json_file:
+# with open('./resources/prices_from_sheety_ololo.json', 'w') as json_file:
 #     json.dump(response.json(), json_file, indent=4)
 
 # ===== read saved data from JSON
-with open('./resources/prices_from_sheety.json') as json_file:
+with open('resources/prices_from_sheety_ololo.json') as json_file:
     cities_dict = json.load(json_file)  # dict
 
 # ==== convert data from json to generator for using in tequila_kivi
@@ -79,6 +79,8 @@ for city in cities_dict['prices']:
         'nights_in_dst_to': 13,
         'curr': 'GBP',
         'price_to': city['lowestPrice'],  # 'price_from': 800,
+        'sort': 'date',
+        'limit': 1
     }
     response = requests.get(url=tequila_kivi_url, params=params, headers=headers)
     all_fly_data = response.json()["data"]
@@ -109,16 +111,6 @@ print(to_city_flights)
 
 # for item in to_city_flights:
 #     to_city_flights[item] = sorted(to_city_flights.get(item), key=lambda x: x['local_departure'])
-
-# list_of_result_tickets = list()
-# for city in to_city_flights:
-#     local_departure = "2020-01-01T01:00:00.000Z"
-#     for item in to_city_flights[city]:
-#         if item['local_departure'] == local_departure:
-#             continue
-#         local_departure = item['local_departure']
-#         list_of_result_tickets.append(item)
-# print(list_of_result_tickets)
 
 # sorted_by_duration = sorted(flights, key=lambda x: x['total_duration'])
 # print(sorted_by_duration)
