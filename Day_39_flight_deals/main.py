@@ -1,9 +1,11 @@
 # This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes
 # to achieve the program requirements.
 
+import os
 from data_manager import DataManager
 from flight_search import FlightSearch
 from flight_data import FlightData
+from notification_manager import NotificationManager
 
 from dotenv import load_dotenv
 
@@ -27,8 +29,9 @@ fd.init_flight_data()
 tickets = fd.get_tickets_list()
 
 # print(tickets)
-text = ''
+plain_text = ''
 for t in tickets:
-    text += t+'\n'
+    plain_text += t+'\n'
 
-print(text)
+notification = NotificationManager()
+notification.send_email(plain_text, [os.environ["SECONDARY_MAIL"]])
