@@ -1,0 +1,502 @@
+[
+    {
+        "place": 1,
+        "title": "Franchise",
+        "group": "Travis Scott Featuring Young Thug & M.I.A."
+    },
+    {
+        "place": 2,
+        "title": "Dynamite",
+        "group": "BTS"
+    },
+    {
+        "place": 3,
+        "title": "WAP",
+        "group": "Cardi B Featuring Megan Thee Stallion"
+    },
+    {
+        "place": 4,
+        "title": "Laugh Now Cry Later",
+        "group": "Drake Featuring Lil Durk"
+    },
+    {
+        "place": 5,
+        "title": "Mood",
+        "group": "24kGoldn Featuring iann dior"
+    },
+    {
+        "place": 6,
+        "title": "Blinding Lights",
+        "group": "The Weeknd"
+    },
+    {
+        "place": 7,
+        "title": "Rockstar",
+        "group": "DaBaby Featuring Roddy Ricch"
+    },
+    {
+        "place": 8,
+        "title": "Savage Love (Laxed - Siren Beat)",
+        "group": "Jawsh 685 x Jason Derulo"
+    },
+    {
+        "place": 9,
+        "title": "Watermelon Sugar",
+        "group": "Harry Styles"
+    },
+    {
+        "place": 10,
+        "title": "I Hope",
+        "group": "Gabby Barrett Featuring Charlie Puth"
+    },
+    {
+        "place": 11,
+        "title": "Before You Go",
+        "group": "Lewis Capaldi"
+    },
+    {
+        "place": 12,
+        "title": "Holy",
+        "group": "Justin Bieber Featuring Chance The Rapper"
+    },
+    {
+        "place": 13,
+        "title": "Whats Poppin",
+        "group": "Jack Harlow Featuring DaBaby, Tory Lanez & Lil Wayne"
+    },
+    {
+        "place": 14,
+        "title": "Lemonade",
+        "group": "Internet Money & Gunna Featuring Don Toliver & NAV"
+    },
+    {
+        "place": 15,
+        "title": "For The Night",
+        "group": "Pop Smoke Featuring Lil Baby & DaBaby"
+    },
+    {
+        "place": 16,
+        "title": "Go Crazy",
+        "group": "Chris Brown & Young Thug"
+    },
+    {
+        "place": 17,
+        "title": "Circles",
+        "group": "Post Malone"
+    },
+    {
+        "place": 18,
+        "title": "One Of Them Girls",
+        "group": "Lee Brice"
+    },
+    {
+        "place": 19,
+        "title": "Got What I Got",
+        "group": "Jason Aldean"
+    },
+    {
+        "place": 20,
+        "title": "Come & Go",
+        "group": "Juice WRLD x Marshmello"
+    },
+    {
+        "place": 21,
+        "title": "Popstar",
+        "group": "DJ Khaled Featuring Drake"
+    },
+    {
+        "place": 22,
+        "title": "Roses",
+        "group": "SAINt JHN"
+    },
+    {
+        "place": 23,
+        "title": "Be Like That",
+        "group": "Kane Brown With Swae Lee & Khalid"
+    },
+    {
+        "place": 24,
+        "title": "Adore You",
+        "group": "Harry Styles"
+    },
+    {
+        "place": 25,
+        "title": "Break My Heart",
+        "group": "Dua Lipa"
+    },
+    {
+        "place": 26,
+        "title": "Lovin' On You",
+        "group": "Luke Combs"
+    },
+    {
+        "place": 27,
+        "title": "Mood Swings",
+        "group": "Pop Smoke Featuring Lil Tjay"
+    },
+    {
+        "place": 28,
+        "title": "My Ex's Best Friend",
+        "group": "Machine Gun Kelly X blackbear"
+    },
+    {
+        "place": 29,
+        "title": "The Woo",
+        "group": "Pop Smoke Featuring 50 Cent & Roddy Ricch"
+    },
+    {
+        "place": 30,
+        "title": "Tap In",
+        "group": "Saweetie"
+    },
+    {
+        "place": 31,
+        "title": "If The World Was Ending",
+        "group": "JP Saxe Featuring Julia Michaels"
+    },
+    {
+        "place": 32,
+        "title": "Bang!",
+        "group": "AJR"
+    },
+    {
+        "place": 33,
+        "title": "Don't Start Now",
+        "group": "Dua Lipa"
+    },
+    {
+        "place": 34,
+        "title": "More Than My Hometown",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 35,
+        "title": "ily",
+        "group": "Surf Mesa Featuring Emilee"
+    },
+    {
+        "place": 36,
+        "title": "Said Sum",
+        "group": "Moneybagg Yo"
+    },
+    {
+        "place": 37,
+        "title": "Kings & Queens",
+        "group": "Ava Max"
+    },
+    {
+        "place": 38,
+        "title": "Rags2Riches",
+        "group": "Rod Wave Featuring ATR Son Son"
+    },
+    {
+        "place": 39,
+        "title": "Midnight Sky",
+        "group": "Miley Cyrus"
+    },
+    {
+        "place": 40,
+        "title": "What You Know Bout Love",
+        "group": "Pop Smoke"
+    },
+    {
+        "place": 41,
+        "title": "Life Is Good",
+        "group": "Future Featuring Drake"
+    },
+    {
+        "place": 42,
+        "title": "Some Girls",
+        "group": "Jameson Rodgers"
+    },
+    {
+        "place": 43,
+        "title": "I Should Probably Go To Bed",
+        "group": "Dan + Shay"
+    },
+    {
+        "place": 44,
+        "title": "Forget Me Too",
+        "group": "Machine Gun Kelly & Halsey"
+    },
+    {
+        "place": 45,
+        "title": "Cool Again",
+        "group": "Kane Brown"
+    },
+    {
+        "place": 46,
+        "title": "Chasin' You",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 47,
+        "title": "Epidemic",
+        "group": "Polo G"
+    },
+    {
+        "place": 48,
+        "title": "Die From A Broken Heart",
+        "group": "Maddie & Tae"
+    },
+    {
+        "place": 49,
+        "title": "We Paid",
+        "group": "Lil Baby & 42 Dugg"
+    },
+    {
+        "place": 50,
+        "title": "Bloody Valentine",
+        "group": "Machine Gun Kelly"
+    },
+    {
+        "place": 51,
+        "title": "Wishing Well",
+        "group": "Juice WRLD"
+    },
+    {
+        "place": 52,
+        "title": "One Beer",
+        "group": "HARDY Featuring Lauren Alaina & Devin Dawson"
+    },
+    {
+        "place": 53,
+        "title": "Cardigan",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 54,
+        "title": "24",
+        "group": "Money Man Featuring Lil Baby"
+    },
+    {
+        "place": 55,
+        "title": "Rain On Me",
+        "group": "Lady Gaga & Ariana Grande"
+    },
+    {
+        "place": 56,
+        "title": "Happy Anywhere",
+        "group": "Blake Shelton Featuring Gwen Stefani"
+    },
+    {
+        "place": 57,
+        "title": "Hawai",
+        "group": "Maluma & The Weeknd"
+    },
+    {
+        "place": 58,
+        "title": "Pretty Heart",
+        "group": "Parker McCollum"
+    },
+    {
+        "place": 59,
+        "title": "Breaking Me",
+        "group": "Topic & A7S"
+    },
+    {
+        "place": 60,
+        "title": "Heather",
+        "group": "Conan Gray"
+    },
+    {
+        "place": 61,
+        "title": "7 Summers",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 62,
+        "title": "I Called Mama",
+        "group": "Tim McGraw"
+    },
+    {
+        "place": 63,
+        "title": "You Broke Me First.",
+        "group": "Tate McRae"
+    },
+    {
+        "place": 64,
+        "title": "Starting Over",
+        "group": "Chris Stapleton"
+    },
+    {
+        "place": 65,
+        "title": "Love You Like I Used To",
+        "group": "Russell Dickerson"
+    },
+    {
+        "place": 66,
+        "title": "Ain't Always The Cowboy",
+        "group": "Jon Pardi"
+    },
+    {
+        "place": 67,
+        "title": "Greece",
+        "group": "DJ Khaled Featuring Drake"
+    },
+    {
+        "place": 68,
+        "title": "Ice Cream",
+        "group": "BLACKPINK X Selena Gomez"
+    },
+    {
+        "place": 69,
+        "title": "Everywhere But On",
+        "group": "Matt Stell"
+    },
+    {
+        "place": 70,
+        "title": "Diamonds",
+        "group": "Sam Smith"
+    },
+    {
+        "place": 71,
+        "title": "Martin & Gina",
+        "group": "Polo G"
+    },
+    {
+        "place": 72,
+        "title": "The Bigger Picture",
+        "group": "Lil Baby"
+    },
+    {
+        "place": 73,
+        "title": "OK Not To Be OK",
+        "group": "Marshmello & Demi Lovato"
+    },
+    {
+        "place": 74,
+        "title": "Girls In The Hood",
+        "group": "Megan Thee Stallion"
+    },
+    {
+        "place": 75,
+        "title": "Hit Different",
+        "group": "SZA Featuring Ty Dolla $ign"
+    },
+    {
+        "place": 76,
+        "title": "Relacion",
+        "group": "Sech, Daddy Yankee & J Balvin Featuring Rosalia & Farruko"
+    },
+    {
+        "place": 77,
+        "title": "Un Dia (One Day)",
+        "group": "J Balvin, Dua Lipa, Bad Bunny & Tainy"
+    },
+    {
+        "place": 78,
+        "title": "Dollaz On My Head",
+        "group": "Gunna Featuring Young Thug"
+    },
+    {
+        "place": 79,
+        "title": "Kacey Talk",
+        "group": "YoungBoy Never Broke Again"
+    },
+    {
+        "place": 80,
+        "title": "Do It",
+        "group": "Chloe X Halle"
+    },
+    {
+        "place": 81,
+        "title": "Smile",
+        "group": "Juice WRLD & The Weeknd"
+    },
+    {
+        "place": 82,
+        "title": "Like That",
+        "group": "Doja Cat Featuring Gucci Mane"
+    },
+    {
+        "place": 83,
+        "title": "Caramelo",
+        "group": "Ozuna x Karol G x Myke Towers"
+    },
+    {
+        "place": 84,
+        "title": "Over Now",
+        "group": "Calvin Harris X The Weeknd"
+    },
+    {
+        "place": 85,
+        "title": "Blind",
+        "group": "DaBaby Featuring Young Thug"
+    },
+    {
+        "place": 86,
+        "title": "Nobody's Love",
+        "group": "Maroon 5"
+    },
+    {
+        "place": 87,
+        "title": "You Got It",
+        "group": "VEDO"
+    },
+    {
+        "place": 88,
+        "title": "U 2 Luv",
+        "group": "Ne-Yo & Jeremih"
+    },
+    {
+        "place": 89,
+        "title": "Better",
+        "group": "Zayn"
+    },
+    {
+        "place": 90,
+        "title": "3 Headed Goat",
+        "group": "Lil Durk Featuring Lil Baby & Polo G"
+    },
+    {
+        "place": 91,
+        "title": "Drunk Face",
+        "group": "Machine Gun Kelly"
+    },
+    {
+        "place": 92,
+        "title": "B.S.",
+        "group": "Jhene Aiko Featuring H.E.R."
+    },
+    {
+        "place": 93,
+        "title": "Big, Big Plans",
+        "group": "Chris Lane"
+    },
+    {
+        "place": 94,
+        "title": "Ay, Dios Mio!",
+        "group": "Karol G"
+    },
+    {
+        "place": 95,
+        "title": "Good Time",
+        "group": "Niko Moon"
+    },
+    {
+        "place": 96,
+        "title": "Put Your Records On",
+        "group": "Ritt Momney"
+    },
+    {
+        "place": 97,
+        "title": "Money Over Fallouts",
+        "group": "Tory Lanez"
+    },
+    {
+        "place": 98,
+        "title": "Moral Of The Story",
+        "group": "Ashe Featuring Niall Horan"
+    },
+    {
+        "place": 99,
+        "title": "One Too Many",
+        "group": "Keith Urban Duet With P!nk"
+    },
+    {
+        "place": 100,
+        "title": "La Jeepeta",
+        "group": "Nio Garcia x Anuel AA x Myke Towers x Brray x Juanka"
+    }
+]

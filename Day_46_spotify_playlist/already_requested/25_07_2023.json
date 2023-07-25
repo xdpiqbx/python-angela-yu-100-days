@@ -1,0 +1,502 @@
+[
+    {
+        "place": 1,
+        "title": "Seven",
+        "group": "Jung Kook Featuring Latto"
+    },
+    {
+        "place": 2,
+        "title": "Try That In A Small Town",
+        "group": "Jason Aldean"
+    },
+    {
+        "place": 3,
+        "title": "Last Night",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 4,
+        "title": "Fast Car",
+        "group": "Luke Combs"
+    },
+    {
+        "place": 5,
+        "title": "Calm Down",
+        "group": "Rema & Selena Gomez"
+    },
+    {
+        "place": 6,
+        "title": "Fukumean",
+        "group": "Gunna"
+    },
+    {
+        "place": 7,
+        "title": "Vampire",
+        "group": "Olivia Rodrigo"
+    },
+    {
+        "place": 8,
+        "title": "Cruel Summer",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 9,
+        "title": "Flowers",
+        "group": "Miley Cyrus"
+    },
+    {
+        "place": 10,
+        "title": "All My Life",
+        "group": "Lil Durk Featuring J. Cole"
+    },
+    {
+        "place": 11,
+        "title": "Karma",
+        "group": "Taylor Swift Featuring Ice Spice"
+    },
+    {
+        "place": 12,
+        "title": "Snooze",
+        "group": "SZA"
+    },
+    {
+        "place": 13,
+        "title": "Kill Bill",
+        "group": "SZA"
+    },
+    {
+        "place": 14,
+        "title": "Need A Favor",
+        "group": "Jelly Roll"
+    },
+    {
+        "place": 15,
+        "title": "Favorite Song",
+        "group": "Toosii"
+    },
+    {
+        "place": 16,
+        "title": "Sure Thing",
+        "group": "Miguel"
+    },
+    {
+        "place": 17,
+        "title": "Creepin'",
+        "group": "Metro Boomin, The Weeknd & 21 Savage"
+    },
+    {
+        "place": 18,
+        "title": "Something In The Orange",
+        "group": "Zach Bryan"
+    },
+    {
+        "place": 19,
+        "title": "Anti-Hero",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 20,
+        "title": "Ella Baila Sola",
+        "group": "Eslabon Armado X Peso Pluma"
+    },
+    {
+        "place": 21,
+        "title": "Die For You",
+        "group": "The Weeknd & Ariana Grande"
+    },
+    {
+        "place": 22,
+        "title": "Thinkin' Bout Me",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 23,
+        "title": "You Proof",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 24,
+        "title": "Cupid",
+        "group": "Fifty Fifty"
+    },
+    {
+        "place": 25,
+        "title": "Dance The Night",
+        "group": "Dua Lipa"
+    },
+    {
+        "place": 26,
+        "title": "Religiously",
+        "group": "Bailey Zimmerman"
+    },
+    {
+        "place": 27,
+        "title": "Barbie World",
+        "group": "Nicki Minaj & Ice Spice With Aqua"
+    },
+    {
+        "place": 28,
+        "title": "Next Thing You Know",
+        "group": "Jordan Davis"
+    },
+    {
+        "place": 29,
+        "title": "La Bebe",
+        "group": "Yng Lvcas x Peso Pluma"
+    },
+    {
+        "place": 30,
+        "title": "Thought You Should Know",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 31,
+        "title": "I'm Good (Blue)",
+        "group": "David Guetta & Bebe Rexha"
+    },
+    {
+        "place": 32,
+        "title": "Un x100to",
+        "group": "Grupo Frontera X Bad Bunny"
+    },
+    {
+        "place": 33,
+        "title": "I Can See You (Taylor's Version) (From The Vault)",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 34,
+        "title": "What Was I Made For?",
+        "group": "Billie Eilish"
+    },
+    {
+        "place": 35,
+        "title": "Search & Rescue",
+        "group": "Drake"
+    },
+    {
+        "place": 36,
+        "title": "Dancin' In The Country",
+        "group": "Tyler Hubbard"
+    },
+    {
+        "place": 37,
+        "title": "Eyes Closed",
+        "group": "Ed Sheeran"
+    },
+    {
+        "place": 38,
+        "title": "Memory Lane",
+        "group": "Old Dominion"
+    },
+    {
+        "place": 39,
+        "title": "Dial Drunk",
+        "group": "Noah Kahan"
+    },
+    {
+        "place": 40,
+        "title": "Bury Me In Georgia",
+        "group": "Kane Brown"
+    },
+    {
+        "place": 41,
+        "title": "Love You Anyway",
+        "group": "Luke Combs"
+    },
+    {
+        "place": 42,
+        "title": "Put It On Da Floor Again",
+        "group": "Latto Featuring Cardi B"
+    },
+    {
+        "place": 43,
+        "title": "Chemical",
+        "group": "Post Malone"
+    },
+    {
+        "place": 44,
+        "title": "Where She Goes",
+        "group": "Bad Bunny"
+    },
+    {
+        "place": 45,
+        "title": "Sabor Fresa",
+        "group": "Fuerza Regida"
+    },
+    {
+        "place": 46,
+        "title": "Area Codes",
+        "group": "Kaliii"
+    },
+    {
+        "place": 47,
+        "title": "Overdrive",
+        "group": "Post Malone"
+    },
+    {
+        "place": 48,
+        "title": "LaLa",
+        "group": "Myke Towers"
+    },
+    {
+        "place": 49,
+        "title": "Princess Diana",
+        "group": "Ice Spice & Nicki Minaj"
+    },
+    {
+        "place": 50,
+        "title": "Tulum",
+        "group": "Peso Pluma & Grupo Frontera"
+    },
+    {
+        "place": 51,
+        "title": "Lady Gaga",
+        "group": "Peso Pluma, Gabito Ballesteros & Junior H"
+    },
+    {
+        "place": 52,
+        "title": "Peaches & Eggplants",
+        "group": "Young Nudy Featuring 21 Savage"
+    },
+    {
+        "place": 53,
+        "title": "Your Heart Or Mine",
+        "group": "Jon Pardi"
+    },
+    {
+        "place": 54,
+        "title": "What It Is (Block Boy)",
+        "group": "Doechii Featuring Kodak Black"
+    },
+    {
+        "place": 55,
+        "title": "Mourning",
+        "group": "Post Malone"
+    },
+    {
+        "place": 56,
+        "title": "TQM",
+        "group": "Fuerza Regida"
+    },
+    {
+        "place": 57,
+        "title": "Baby Don't Hurt Me",
+        "group": "David Guetta, Anne-Marie & Coi Leray"
+    },
+    {
+        "place": 58,
+        "title": "You, Me, & Whiskey",
+        "group": "Justin Moore & Priscilla Block"
+    },
+    {
+        "place": 59,
+        "title": "Stand By Me",
+        "group": "Lil Durk Featuring Morgan Wallen"
+    },
+    {
+        "place": 60,
+        "title": "Watermelon Moonshine",
+        "group": "Lainey Wilson"
+    },
+    {
+        "place": 61,
+        "title": "Daylight",
+        "group": "David Kushner"
+    },
+    {
+        "place": 62,
+        "title": "ICU",
+        "group": "Coco Jones"
+    },
+    {
+        "place": 63,
+        "title": "S91",
+        "group": "Karol G"
+    },
+    {
+        "place": 64,
+        "title": "Super Shy",
+        "group": "NewJeans"
+    },
+    {
+        "place": 65,
+        "title": "Enchanted (Taylor's Version)",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 66,
+        "title": "Popular",
+        "group": "The Weeknd, Playboi Carti & Madonna"
+    },
+    {
+        "place": 67,
+        "title": "Shake Sumn",
+        "group": "DaBaby"
+    },
+    {
+        "place": 68,
+        "title": "Oh U Went",
+        "group": "Young Thug Featuring Drake"
+    },
+    {
+        "place": 69,
+        "title": "Bzrp Music Sessions, Vol. 55",
+        "group": "Bizarrap & Peso Pluma"
+    },
+    {
+        "place": 70,
+        "title": "Flooded The Face",
+        "group": "Lil Uzi Vert"
+    },
+    {
+        "place": 71,
+        "title": "Fragil",
+        "group": "Yahritza y Su Esencia x Grupo Frontera"
+    },
+    {
+        "place": 72,
+        "title": "Everything I Love",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 73,
+        "title": "Cowgirls",
+        "group": "Morgan Wallen Featuring ERNEST"
+    },
+    {
+        "place": 74,
+        "title": "Bye",
+        "group": "Peso Pluma"
+    },
+    {
+        "place": 75,
+        "title": "Truck Bed",
+        "group": "HARDY"
+    },
+    {
+        "place": 76,
+        "title": "Back To December (Taylor's Version)",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 77,
+        "title": "Rush",
+        "group": "Troye Sivan"
+    },
+    {
+        "place": 78,
+        "title": "Pound Town 2",
+        "group": "Sexyy Red & Tay Keith & Nicki Minaj"
+    },
+    {
+        "place": 79,
+        "title": "Luna",
+        "group": "Peso Pluma & Junior H"
+    },
+    {
+        "place": 80,
+        "title": "Por Las Noches",
+        "group": "Peso Pluma"
+    },
+    {
+        "place": 81,
+        "title": "Mine (Taylor's Version)",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 82,
+        "title": "See You Again",
+        "group": "Tyler, The Creator Featuring Kali Uchis"
+    },
+    {
+        "place": 83,
+        "title": "Fight The Feeling",
+        "group": "Rod Wave"
+    },
+    {
+        "place": 84,
+        "title": "Save Me The Trouble",
+        "group": "Dan + Shay"
+    },
+    {
+        "place": 85,
+        "title": "Lagunas",
+        "group": "Peso Pluma & Jasiel Nunez"
+    },
+    {
+        "place": 86,
+        "title": "Turn Yo Clic Up",
+        "group": "Quavo & Future"
+    },
+    {
+        "place": 87,
+        "title": "El Azul",
+        "group": "Junior H x Peso Pluma"
+    },
+    {
+        "place": 88,
+        "title": "Jaded",
+        "group": "Miley Cyrus"
+    },
+    {
+        "place": 89,
+        "title": "Rubicon",
+        "group": "Peso Pluma"
+    },
+    {
+        "place": 90,
+        "title": "Ain't That Some",
+        "group": "Morgan Wallen"
+    },
+    {
+        "place": 91,
+        "title": "Save Me",
+        "group": "Jelly Roll With Lainey Wilson"
+    },
+    {
+        "place": 92,
+        "title": "Quema",
+        "group": "Ryan Castro x Pe$o Pluma"
+    },
+    {
+        "place": 93,
+        "title": "Angels Don't Always Have Wings",
+        "group": "Thomas Rhett"
+    },
+    {
+        "place": 94,
+        "title": "Mojabi Ghost",
+        "group": "Tainy & Bad Bunny"
+    },
+    {
+        "place": 95,
+        "title": "Sparks Fly (Taylor's Version)",
+        "group": "Taylor Swift"
+    },
+    {
+        "place": 96,
+        "title": "Thang For You",
+        "group": "Rylo Rodriguez Featuring NoCap"
+    },
+    {
+        "place": 97,
+        "title": "Johnny Dang",
+        "group": "That Mexican OT, Paul Wall & DRODi"
+    },
+    {
+        "place": 98,
+        "title": "Calling",
+        "group": "Metro Boomin, Swae Lee & NAV Featuring A Boogie Wit da Hoodie"
+    },
+    {
+        "place": 99,
+        "title": "Endless Fashion",
+        "group": "Lil Uzi Vert Featuring Nicki Minaj"
+    },
+    {
+        "place": 100,
+        "title": "Girl In Mine",
+        "group": "Parmalee"
+    }
+]
