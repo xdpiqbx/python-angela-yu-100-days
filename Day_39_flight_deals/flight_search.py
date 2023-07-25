@@ -15,6 +15,7 @@ class FlightSearch:
         self.__headers = {"apikey": os.environ["KIWI_API"]}
 
     def request_iata_codes_for_cities(self, cities):
+        print('request_iata_codes_for_cities')
         for city in cities:
             params = {
                 "accept": "application/json",
@@ -27,4 +28,5 @@ class FlightSearch:
             })
 
     def get_ids_and_iata_codes_for_sheety(self):
+        print('request_iata_codes_for_cities')
         return (item for item in self.__sheet_ids_iata_codes)
