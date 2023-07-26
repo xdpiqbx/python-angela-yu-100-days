@@ -1,0 +1,605 @@
+{
+    "has_spotify_track_id": true,
+    "hot_100": [
+        {
+            "place": 1,
+            "title": "Seven",
+            "group": "Jung Kook Featuring Latto",
+            "track_id": "1zAYWqTX6qyRCKe9KuCUx0"
+        },
+        {
+            "place": 2,
+            "title": "Try That In A Small Town",
+            "group": "Jason Aldean",
+            "track_id": "5Hj1jZR4Cm94fX31G6xTRk"
+        },
+        {
+            "place": 3,
+            "title": "Last Night",
+            "group": "Morgan Wallen",
+            "track_id": "59uQI0PADDKeE6UZDTJEe8"
+        },
+        {
+            "place": 4,
+            "title": "Fast Car",
+            "group": "Luke Combs",
+            "track_id": "28n8z9IQKyjMPxmvYMBqZa"
+        },
+        {
+            "place": 5,
+            "title": "Calm Down",
+            "group": "Rema & Selena Gomez",
+            "track_id": "1s7oOCT8vauUh01PbJD6ps"
+        },
+        {
+            "place": 6,
+            "title": "Fukumean",
+            "group": "Gunna",
+            "track_id": "4rXLjWdF2ZZpXCVTfWcshS"
+        },
+        {
+            "place": 7,
+            "title": "Vampire",
+            "group": "Olivia Rodrigo",
+            "track_id": "4wvuiL9vCUo0JuyfR5C9W5"
+        },
+        {
+            "place": 8,
+            "title": "Cruel Summer",
+            "group": "Taylor Swift",
+            "track_id": "2w054roWvfDbzmMvbKX7rV"
+        },
+        {
+            "place": 9,
+            "title": "Flowers",
+            "group": "Miley Cyrus",
+            "track_id": "3MnewZrZDqej6thgEx3OB1"
+        },
+        {
+            "place": 10,
+            "title": "All My Life",
+            "group": "Lil Durk Featuring J. Cole",
+            "track_id": "6T7FXSuXykeGktMLGp8WgE"
+        },
+        {
+            "place": 11,
+            "title": "Karma",
+            "group": "Taylor Swift Featuring Ice Spice",
+            "track_id": "7KZouk2Htcl3Zpgk0Xp9ph"
+        },
+        {
+            "place": 12,
+            "title": "Snooze",
+            "group": "SZA",
+            "track_id": "4iZ4pt7kvcaH6Yo8UoZ4s2"
+        },
+        {
+            "place": 13,
+            "title": "Kill Bill",
+            "group": "SZA",
+            "track_id": "1Qrg8KqiBpW07V7PNxwwwL"
+        },
+        {
+            "place": 14,
+            "title": "Need A Favor",
+            "group": "Jelly Roll",
+            "track_id": "5twSy6ffBrF03mnNUsUgJZ"
+        },
+        {
+            "place": 15,
+            "title": "Favorite Song",
+            "group": "Toosii",
+            "track_id": "1SRw5p2lVAi7RGlHEmZg66"
+        },
+        {
+            "place": 16,
+            "title": "Sure Thing",
+            "group": "Miguel",
+            "track_id": "0JXXNGljqupsJaZsgSbMZV"
+        },
+        {
+            "place": 17,
+            "title": "Creepin'",
+            "group": "Metro Boomin, The Weeknd & 21 Savage",
+            "track_id": "2dHHgzDwk4BJdRwy9uXhTO"
+        },
+        {
+            "place": 18,
+            "title": "Something In The Orange",
+            "group": "Zach Bryan",
+            "track_id": "3WMj8moIAXJhHsyLaqIIHI"
+        },
+        {
+            "place": 19,
+            "title": "Anti-Hero",
+            "group": "Taylor Swift",
+            "track_id": "0V3wPSX9ygBnCm8psDIegu"
+        },
+        {
+            "place": 20,
+            "title": "Ella Baila Sola",
+            "group": "Eslabon Armado X Peso Pluma",
+            "track_id": "3qQbCzHBycnDpGskqOWY0E"
+        },
+        {
+            "place": 21,
+            "title": "Die For You",
+            "group": "The Weeknd & Ariana Grande",
+            "track_id": "4W4fNrZYkobj539TOWsLO2"
+        },
+        {
+            "place": 22,
+            "title": "Thinkin' Bout Me",
+            "group": "Morgan Wallen",
+            "track_id": "0PAcdVzhPO4gq1Iym9ESnK"
+        },
+        {
+            "place": 23,
+            "title": "You Proof",
+            "group": "Morgan Wallen",
+            "track_id": "5W4kiM2cUYBJXKRudNyxjW"
+        },
+        {
+            "place": 24,
+            "title": "Cupid",
+            "group": "Fifty Fifty",
+            "track_id": "7FbrGaHYVDmfr7KoLIZnQ7"
+        },
+        {
+            "place": 25,
+            "title": "Dance The Night",
+            "group": "Dua Lipa",
+            "track_id": "2ekn2ttSfGqwhhate0LSR0"
+        },
+        {
+            "place": 26,
+            "title": "Religiously",
+            "group": "Bailey Zimmerman",
+            "track_id": "0j9SAhNhBPgVmpqvLTI9iw"
+        },
+        {
+            "place": 27,
+            "title": "Barbie World",
+            "group": "Nicki Minaj & Ice Spice With Aqua",
+            "track_id": "741UUVE2kuITl0c6zuqqbO"
+        },
+        {
+            "place": 28,
+            "title": "Next Thing You Know",
+            "group": "Jordan Davis",
+            "track_id": "39OclE5hZematADrdfaWvE"
+        },
+        {
+            "place": 29,
+            "title": "La Bebe",
+            "group": "Yng Lvcas x Peso Pluma",
+            "track_id": "2UW7JaomAMuX9pZrjVpHAU"
+        },
+        {
+            "place": 30,
+            "title": "Thought You Should Know",
+            "group": "Morgan Wallen",
+            "track_id": "03BnRR0svyDHLKs4zl9btw"
+        },
+        {
+            "place": 31,
+            "title": "I'm Good (Blue)",
+            "group": "David Guetta & Bebe Rexha",
+            "track_id": "4uUG5RXrOk84mYEfFvj3cK"
+        },
+        {
+            "place": 32,
+            "title": "Un x100to",
+            "group": "Grupo Frontera X Bad Bunny",
+            "track_id": "6pD0ufEQq0xdHSsRbg9LBK"
+        },
+        {
+            "place": 33,
+            "title": "I Can See You (Taylor's Version) (From The Vault)",
+            "group": "Taylor Swift",
+            "track_id": "5kHMfzgLZP95O9NBy0ku4v"
+        },
+        {
+            "place": 34,
+            "title": "What Was I Made For?",
+            "group": "Billie Eilish",
+            "track_id": "7eB1V5LvAdxCc7brfGhRRo"
+        },
+        {
+            "place": 35,
+            "title": "Search & Rescue",
+            "group": "Drake",
+            "track_id": "3F5CgOj3wFlRv51JsHbxhe"
+        },
+        {
+            "place": 36,
+            "title": "Dancin' In The Country",
+            "group": "Tyler Hubbard",
+            "track_id": "2KtGiBi5CrX2ERPD2PAS34"
+        },
+        {
+            "place": 37,
+            "title": "Eyes Closed",
+            "group": "Ed Sheeran",
+            "track_id": "1C0Uqh9cRMLPw9WpZzL4Z1"
+        },
+        {
+            "place": 38,
+            "title": "Memory Lane",
+            "group": "Old Dominion",
+            "track_id": "6a6m9cezKuRGoiHH11bU4Z"
+        },
+        {
+            "place": 39,
+            "title": "Dial Drunk",
+            "group": "Noah Kahan",
+            "track_id": "0caJ2wkqp4UmXBwdR2JvB5"
+        },
+        {
+            "place": 40,
+            "title": "Bury Me In Georgia",
+            "group": "Kane Brown",
+            "track_id": "1brnLTvarI9D1hLP6z2Ar8"
+        },
+        {
+            "place": 41,
+            "title": "Love You Anyway",
+            "group": "Luke Combs",
+            "track_id": "25FLyhvb1s4CkcmsZqhzJk"
+        },
+        {
+            "place": 42,
+            "title": "Put It On Da Floor Again",
+            "group": "Latto Featuring Cardi B",
+            "track_id": "6c6WmIHcHlhccEwSFBhzNa"
+        },
+        {
+            "place": 43,
+            "title": "Chemical",
+            "group": "Post Malone",
+            "track_id": "5w40ZYhbBMAlHYNDaVJIUu"
+        },
+        {
+            "place": 44,
+            "title": "Where She Goes",
+            "group": "Bad Bunny",
+            "track_id": "7ks6AZmFcm3Y6PGGxGSmlB"
+        },
+        {
+            "place": 45,
+            "title": "Sabor Fresa",
+            "group": "Fuerza Regida",
+            "track_id": "1UMm1Qs3u59Wvk53zBUE8r"
+        },
+        {
+            "place": 46,
+            "title": "Area Codes",
+            "group": "Kaliii",
+            "track_id": "7sliFe6W30tPBPh6dvZsIH"
+        },
+        {
+            "place": 47,
+            "title": "Overdrive",
+            "group": "Post Malone",
+            "track_id": "5um23LH5jmgXCIa9OHvBWb"
+        },
+        {
+            "place": 48,
+            "title": "LaLa",
+            "group": "Myke Towers",
+            "track_id": "7ABLbnD53cQK00mhcaOUVG"
+        },
+        {
+            "place": 49,
+            "title": "Princess Diana",
+            "group": "Ice Spice & Nicki Minaj",
+            "track_id": "0ZxhtATQ0a6EvQNZ0z6NKV"
+        },
+        {
+            "place": 50,
+            "title": "Tulum",
+            "group": "Peso Pluma & Grupo Frontera",
+            "track_id": "7bPp2NmpmyhLJ7zWazAXMu"
+        },
+        {
+            "place": 51,
+            "title": "Lady Gaga",
+            "group": "Peso Pluma, Gabito Ballesteros & Junior H",
+            "track_id": "7bPp2NmpmyhLJ7zWazAXMu"
+        },
+        {
+            "place": 52,
+            "title": "Peaches & Eggplants",
+            "group": "Young Nudy Featuring 21 Savage",
+            "track_id": "2KcQ0PbPj0O3P48B9YX7iN"
+        },
+        {
+            "place": 53,
+            "title": "Your Heart Or Mine",
+            "group": "Jon Pardi",
+            "track_id": "7ETjhPaIU4UmHOiimJBZz9"
+        },
+        {
+            "place": 54,
+            "title": "What It Is (Block Boy)",
+            "group": "Doechii Featuring Kodak Black",
+            "track_id": "1O8zCu3dLLPxkbGfIsbRgE"
+        },
+        {
+            "place": 55,
+            "title": "Mourning",
+            "group": "Post Malone",
+            "track_id": "0gWrMbx6pbdH3n3nsLjE55"
+        },
+        {
+            "place": 56,
+            "title": "TQM",
+            "group": "Fuerza Regida",
+            "track_id": "368eeEO3Y2uZUQ6S5oIjcu"
+        },
+        {
+            "place": 57,
+            "title": "Baby Don't Hurt Me",
+            "group": "David Guetta, Anne-Marie & Coi Leray",
+            "track_id": "3BKD1PwArikchz2Zrlp1qi"
+        },
+        {
+            "place": 58,
+            "title": "You, Me, & Whiskey",
+            "group": "Justin Moore & Priscilla Block",
+            "track_id": "2BLlpdGCv0IErmH3OBGHYJ"
+        },
+        {
+            "place": 59,
+            "title": "Stand By Me",
+            "group": "Lil Durk Featuring Morgan Wallen",
+            "track_id": "1fXnu2HzxbDtoyvFPWG3Bw"
+        },
+        {
+            "place": 60,
+            "title": "Watermelon Moonshine",
+            "group": "Lainey Wilson",
+            "track_id": "38u8rrHfOAcOE7IbArM39x"
+        },
+        {
+            "place": 61,
+            "title": "Daylight",
+            "group": "David Kushner",
+            "track_id": "1odExI7RdWc4BT515LTAwj"
+        },
+        {
+            "place": 62,
+            "title": "ICU",
+            "group": "Coco Jones",
+            "track_id": "1xs5R1koW93bXtXD2s59nR"
+        },
+        {
+            "place": 63,
+            "title": "S91",
+            "group": "Karol G",
+            "track_id": "2IDzCNuJcse3eHerwFiA5a"
+        },
+        {
+            "place": 64,
+            "title": "Super Shy",
+            "group": "NewJeans",
+            "track_id": "6rdkCkjk6D12xRpdMXy0I2"
+        },
+        {
+            "place": 65,
+            "title": "Enchanted (Taylor's Version)",
+            "group": "Taylor Swift",
+            "track_id": "3lm4L3pPL32PFy74dR17OR"
+        },
+        {
+            "place": 66,
+            "title": "Popular",
+            "group": "The Weeknd, Playboi Carti & Madonna",
+            "track_id": "6WzRpISELf3YglGAh7TXcG"
+        },
+        {
+            "place": 67,
+            "title": "Shake Sumn",
+            "group": "DaBaby",
+            "track_id": "3FhZPYvMGSjFc6boVYKlCv"
+        },
+        {
+            "place": 68,
+            "title": "Oh U Went",
+            "group": "Young Thug Featuring Drake",
+            "track_id": "7qLr3HMApUbyDkUvgIvHnB"
+        },
+        {
+            "place": 69,
+            "title": "Bzrp Music Sessions, Vol. 55",
+            "group": "Bizarrap & Peso Pluma",
+            "track_id": "4nrPB8O7Y7wsOCJdgXkthe"
+        },
+        {
+            "place": 70,
+            "title": "Flooded The Face",
+            "group": "Lil Uzi Vert",
+            "track_id": "4daEMLSZCgZ2Mt7gNm2SRa"
+        },
+        {
+            "place": 71,
+            "title": "Fragil",
+            "group": "Yahritza y Su Esencia x Grupo Frontera",
+            "track_id": "4JdSXF2p71cr8uCY3UiJM0"
+        },
+        {
+            "place": 72,
+            "title": "Everything I Love",
+            "group": "Morgan Wallen",
+            "track_id": "59uQI0PADDKeE6UZDTJEe8"
+        },
+        {
+            "place": 73,
+            "title": "Cowgirls",
+            "group": "Morgan Wallen Featuring ERNEST",
+            "track_id": "7fveJ3pk1eSfxBdVkzdXZ0"
+        },
+        {
+            "place": 74,
+            "title": "Bye",
+            "group": "Peso Pluma",
+            "track_id": "17UuYgFcpwbvomTtIX54i4"
+        },
+        {
+            "place": 75,
+            "title": "Truck Bed",
+            "group": "HARDY",
+            "track_id": "103u49mLoJUge83B1CnLxI"
+        },
+        {
+            "place": 76,
+            "title": "Back To December (Taylor's Version)",
+            "group": "Taylor Swift",
+            "track_id": "79uDOz0zuuWS7HWxzMmTa2"
+        },
+        {
+            "place": 77,
+            "title": "Rush",
+            "group": "Troye Sivan",
+            "track_id": "2fuZRyHiMgRPyHMPhiq1GN"
+        },
+        {
+            "place": 78,
+            "title": "Pound Town 2",
+            "group": "Sexyy Red & Tay Keith & Nicki Minaj",
+            "track_id": "6IEXjer2qbXhRLFv99NQQv"
+        },
+        {
+            "place": 79,
+            "title": "Luna",
+            "group": "Peso Pluma & Junior H",
+            "track_id": "3RA55zrRkyPK8Fd86hrMy8"
+        },
+        {
+            "place": 80,
+            "title": "Por Las Noches",
+            "group": "Peso Pluma",
+            "track_id": "7bPp2NmpmyhLJ7zWazAXMu"
+        },
+        {
+            "place": 81,
+            "title": "Mine (Taylor's Version)",
+            "group": "Taylor Swift",
+            "track_id": "7G0gBu6nLdhFDPRLc0HdDG"
+        },
+        {
+            "place": 82,
+            "title": "See You Again",
+            "group": "Tyler, The Creator Featuring Kali Uchis",
+            "track_id": "7KA4W4McWYRpgf0fWsJZWB"
+        },
+        {
+            "place": 83,
+            "title": "Fight The Feeling",
+            "group": "Rod Wave",
+            "track_id": "7l6nGz4gp6HGs5Cvmdeqe4"
+        },
+        {
+            "place": 84,
+            "title": "Save Me The Trouble",
+            "group": "Dan + Shay",
+            "track_id": "2hqqJl0IXoUgj86l9ZhyO2"
+        },
+        {
+            "place": 85,
+            "title": "Lagunas",
+            "group": "Peso Pluma & Jasiel Nunez",
+            "track_id": "2m5n2ewUOZCqSMZa4uMCCY"
+        },
+        {
+            "place": 86,
+            "title": "Turn Yo Clic Up",
+            "group": "Quavo & Future",
+            "track_id": "4vVjPTApwXZwB2H3mBq3ml"
+        },
+        {
+            "place": 87,
+            "title": "El Azul",
+            "group": "Junior H x Peso Pluma",
+            "track_id": "1haJsMtoBhHfvuM7XWuT3W"
+        },
+        {
+            "place": 88,
+            "title": "Jaded",
+            "group": "Miley Cyrus",
+            "track_id": "0wYQTgnhg1aQkAxAQnNtwN"
+        },
+        {
+            "place": 89,
+            "title": "Rubicon",
+            "group": "Peso Pluma",
+            "track_id": "5XL74nrozh90NTEdgr2djt"
+        },
+        {
+            "place": 90,
+            "title": "Ain't That Some",
+            "group": "Morgan Wallen",
+            "track_id": "2YVlDlk2zRceefo6XlC6DX"
+        },
+        {
+            "place": 91,
+            "title": "Save Me",
+            "group": "Jelly Roll With Lainey Wilson",
+            "track_id": "4Bee3PcNdfeqO1B80dDgFn"
+        },
+        {
+            "place": 92,
+            "title": "Quema",
+            "group": "Ryan Castro x Pe$o Pluma",
+            "track_id": "7KjxNLrmYSkevJCdr3FUN7"
+        },
+        {
+            "place": 93,
+            "title": "Angels Don't Always Have Wings",
+            "group": "Thomas Rhett",
+            "track_id": "5vZoQQ1hH5L2s4Y8G86ksg"
+        },
+        {
+            "place": 94,
+            "title": "Mojabi Ghost",
+            "group": "Tainy & Bad Bunny",
+            "track_id": "7HoZsJ4gQl2qM0n6IXDAoK"
+        },
+        {
+            "place": 95,
+            "title": "Sparks Fly (Taylor's Version)",
+            "group": "Taylor Swift",
+            "track_id": "3MytWN8L7shNYzGl4tAKRp"
+        },
+        {
+            "place": 96,
+            "title": "Thang For You",
+            "group": "Rylo Rodriguez Featuring NoCap",
+            "track_id": "1GlLIz7AtCYnwvXpz2rzbo"
+        },
+        {
+            "place": 97,
+            "title": "Johnny Dang",
+            "group": "That Mexican OT, Paul Wall & DRODi",
+            "track_id": "1kwPxt35W7cG3rryxR48PO"
+        },
+        {
+            "place": 98,
+            "title": "Calling",
+            "group": "Metro Boomin, Swae Lee & NAV Featuring A Boogie Wit da Hoodie",
+            "track_id": "4AiqLC4oJtd7QVuVDFg8NH"
+        },
+        {
+            "place": 99,
+            "title": "Endless Fashion",
+            "group": "Lil Uzi Vert Featuring Nicki Minaj",
+            "track_id": "41bmnQZoDMQdDh5zyomtW7"
+        },
+        {
+            "place": 100,
+            "title": "Girl In Mine",
+            "group": "Parmalee",
+            "track_id": "1tSxIRvEfbNiRBBASMxOJV"
+        }
+    ]
+}

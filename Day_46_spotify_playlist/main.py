@@ -1,44 +1,42 @@
-import os
-from bs4 import BeautifulSoup
-import requests
-import json
-from pathlib import Path
+from datetime import datetime as dt
+from dotenv import load_dotenv
+
+from data_validator import DataValidator
+from file_manager import FileManager
+from billboard_manager import BillboardManager
+from spotify_manager import SpotifyManager
+
+load_dotenv()
 
 SAVE_TO = "./already_requested/"
-data_must_be_requested = True
 
 date = input("Which year do you want to travel to? Type the date in this format DD.MM.YYYY : ")
-day, month, year = date.split('.')
 
-# TODO: check data! if it is future change to today
+day, month, year = DataValidator().validate_date(date).split('.')
+date = f"{day}.{month}.{year}"
 
-FILENAME = f"{day}_{month}_{year}.json"
+file_manager = FileManager(f"{day}_{month}_{year}.json")
+file_manager.is_current_file_exists()
 
-for filename in os.listdir(SAVE_TO):
-    if filename == FILENAME:
-        data_must_be_requested = False
-        break
+if file_manager.is_necessary_to_request():
+    print("Request from Billboard")
+    billboard = BillboardManager(year, month, day)
+    file_manager.save_to_json(
+        billboard.scrapped_hot_100()
+    )
 
-if data_must_be_requested:
-    print("Data was requested")
-    url = f"https://www.billboard.com/charts/hot-100/{year}-{month}-{day}/"
+hot_100 = file_manager.get_from_json()
 
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
+spotify = SpotifyManager()
+if not hot_100.get("has_spotify_track_id"):
+    print("Request [track_ids] from Spotify")
+    hot_100 = spotify.get_hot_100_with_spotify_track_id(hot_100)
+    file_manager.save_to_json(hot_100)
 
-    songs = soup.select('li.o-chart-results-list__item:has(h3)')
-    board = list()
-    for i, song in enumerate(songs, start=1):
-        board.append({
-            "place": i,
-            "title": song.select_one('h3').getText().strip(),
-            "group": song.select_one('span').getText().strip()
-        })
+playlist_title = f"Top tracks in: {(dt.strptime(date, '%d.%m.%Y')).strftime('%d %B %Y')}"
+playlist = spotify.create_private_playlist_if_not_exists(playlist_title)
 
-    with open(Path(SAVE_TO, FILENAME), 'w') as json_file:
-        json.dump(board, json_file, indent=4)
+track_ids = [item['track_id'] for item in hot_100.get('hot_100') if item['track_id']]
+spotify.add_tracks_to_existing_playlist_if_not_in(playlist.get('id'), track_ids)
 
-with open(Path(SAVE_TO, FILENAME)) as json_file:
-    hot_100 = json_file.read()
-
-print(hot_100)
+print(spotify.get_all_playlists_urls())

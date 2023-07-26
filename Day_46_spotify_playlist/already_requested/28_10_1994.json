@@ -1,0 +1,605 @@
+{
+    "has_spotify_track_id": true,
+    "hot_100": [
+        {
+            "place": 1,
+            "title": "I'll Make Love To You",
+            "group": "Boyz II Men",
+            "track_id": "7dfl9X38RhIvB3oSmmneq3"
+        },
+        {
+            "place": 2,
+            "title": "All I Wanna Do",
+            "group": "Sheryl Crow",
+            "track_id": "3ZpQiJ78LKINrW9SQTgbXd"
+        },
+        {
+            "place": 3,
+            "title": "Endless Love",
+            "group": "Luther Vandross & Mariah Carey",
+            "track_id": "7IljDTNkQEyy77CcaRbiAj"
+        },
+        {
+            "place": 4,
+            "title": "Secret",
+            "group": "Madonna",
+            "track_id": "15FcP9qwmIKqaD5NhfhNpu"
+        },
+        {
+            "place": 5,
+            "title": "Another Night",
+            "group": "Real McCoy",
+            "track_id": "3DL3P7ZMOu5gApQwaUtseF"
+        },
+        {
+            "place": 6,
+            "title": "When Can I See You",
+            "group": "Babyface",
+            "track_id": "2HAGh5wbI0VyfCbK4MvTc4"
+        },
+        {
+            "place": 7,
+            "title": "Never Lie",
+            "group": "Immature",
+            "track_id": "7fwE3Nr0RsTzYOocfu2XbV"
+        },
+        {
+            "place": 8,
+            "title": "At Your Best (You Are Love)",
+            "group": "Aaliyah",
+            "track_id": "6Wnlq1Pu3I0BajLvxn05Vr"
+        },
+        {
+            "place": 9,
+            "title": "Always",
+            "group": "Bon Jovi",
+            "track_id": "2RChe0r2cMoyOvuKobZy44"
+        },
+        {
+            "place": 10,
+            "title": "Here Comes The Hotstepper (From \"Ready To Wear\")",
+            "group": "Ini Kamoze",
+            "track_id": "3QRM0qZB7oMYavveH0iEqx"
+        },
+        {
+            "place": 11,
+            "title": "I Wanna Be Down",
+            "group": "Brandy",
+            "track_id": "4hC52inR6bhFyZfx3pxK4X"
+        },
+        {
+            "place": 12,
+            "title": "100% Pure Love",
+            "group": "Crystal Waters",
+            "track_id": "1SShxVVBeZBCY7WddnksPz"
+        },
+        {
+            "place": 13,
+            "title": "Stroke You Up",
+            "group": "Changing Faces",
+            "track_id": "4WEBf1A2SMEUGdoOhN3xeE"
+        },
+        {
+            "place": 14,
+            "title": "Wild Night",
+            "group": "John Mellencamp With Me'Shell Ndegeocello",
+            "track_id": "1ehiMBe1MGH9eQdpzT73kd"
+        },
+        {
+            "place": 15,
+            "title": "December 1963 (Oh, What A Night)",
+            "group": "The 4 Seasons",
+            "track_id": "55yGHvAFKfca2Knuq5P14W"
+        },
+        {
+            "place": 16,
+            "title": "I'm The Only One",
+            "group": "Melissa Etheridge",
+            "track_id": "7Au7ZpbYHR6MXydPW7rRR1"
+        },
+        {
+            "place": 17,
+            "title": "Tootsee Roll",
+            "group": "69 Boyz",
+            "track_id": "466cKvZn1j45IpxDdYZqdA"
+        },
+        {
+            "place": 18,
+            "title": "Turn The Beat Around (From \"The Specialist\")",
+            "group": "Gloria Estefan",
+            "track_id": "53pZ8y3yMYUNpclGwIufu0"
+        },
+        {
+            "place": 19,
+            "title": "Flava In Ya Ear",
+            "group": "Craig Mack",
+            "track_id": "5PbFD3AIyunz5HxocduA9e"
+        },
+        {
+            "place": 20,
+            "title": "You Want This/70's Love Groove",
+            "group": "Janet Jackson",
+            "track_id": "6uPYFKedfLIUXvrmRBSMCo"
+        },
+        {
+            "place": 21,
+            "title": "Circle Of Life (From \"The Lion King\")",
+            "group": "Elton John",
+            "track_id": "5YYQOJf5Z2OTD0DFNwFdnF"
+        },
+        {
+            "place": 22,
+            "title": "I'll Stand By You",
+            "group": "Pretenders",
+            "track_id": "7x8dCjCr0x6x2lXKujYD34"
+        },
+        {
+            "place": 23,
+            "title": "Stay (I Missed You) (From \"Reality Bites\")",
+            "group": "Lisa Loeb & Nine Stories",
+            "track_id": "4U72x6TQWmIRJ0NHR1dSqj"
+        },
+        {
+            "place": 24,
+            "title": "Thuggish Ruggish Bone",
+            "group": "Bone Thugs-N-Harmony",
+            "track_id": "7qHAjAL7CpadaZLamuBZRm"
+        },
+        {
+            "place": 25,
+            "title": "What's The Frequency, Kenneth?",
+            "group": "R.E.M.",
+            "track_id": "7ywlnXV5O0h8T5pCRUN1f5"
+        },
+        {
+            "place": 26,
+            "title": "Far Behind",
+            "group": "Candlebox",
+            "track_id": "1d1x28b4MpVhqiy58IHDKb"
+        },
+        {
+            "place": 27,
+            "title": "Don't Turn Around",
+            "group": "Ace Of Base",
+            "track_id": "4SYMibQ93bfzOk6uzkF0dO"
+        },
+        {
+            "place": 28,
+            "title": "Lucky One",
+            "group": "Amy Grant",
+            "track_id": "526aS3rEHcrhvmVOQRgCeg"
+        },
+        {
+            "place": 29,
+            "title": "Juicy/Unbelievable",
+            "group": "The Notorious B.I.G.",
+            "track_id": "7KwZNVEaqikRSBSpyhXK2j"
+        },
+        {
+            "place": 30,
+            "title": "Fantastic Voyage",
+            "group": "Coolio",
+            "track_id": "5vpDsiVqiZLRwKAzQO708k"
+        },
+        {
+            "place": 31,
+            "title": "Bop Gun (One Nation)",
+            "group": "Ice Cube Featuring George Clinton",
+            "track_id": "6M7HDwSepJQSO8SAbq2QRG"
+        },
+        {
+            "place": 32,
+            "title": "Shine",
+            "group": "Collective Soul",
+            "track_id": "77YKoNCjP5hWqiXMRG2839"
+        },
+        {
+            "place": 33,
+            "title": "This D.J.",
+            "group": "Warren G",
+            "track_id": "2ImuQo1g14CTR9hZAZD3aQ"
+        },
+        {
+            "place": 34,
+            "title": "Can You Feel The Love Tonight (From \"The Lion King\")",
+            "group": "Elton John",
+            "track_id": "6s1KHEalfzcHpOK56RV2rt"
+        },
+        {
+            "place": 35,
+            "title": "If You Go",
+            "group": "Jon Secada",
+            "track_id": "4s5igGP8hZ1iJ9wNKvh5vE"
+        },
+        {
+            "place": 36,
+            "title": "Lucas With The Lid Off",
+            "group": "Lucas",
+            "track_id": "5XFf7KH7vlpUck2XNHH3oY"
+        },
+        {
+            "place": 37,
+            "title": "Come To My Window",
+            "group": "Melissa Etheridge",
+            "track_id": "4LmlGaGTEbTGE5VngAbpA3"
+        },
+        {
+            "place": 38,
+            "title": "Living In Danger",
+            "group": "Ace Of Base",
+            "track_id": "5ICwDM1fzgqv7HNFUIjPyx"
+        },
+        {
+            "place": 39,
+            "title": "None Of Your Business",
+            "group": "Salt-N-Pepa",
+            "track_id": "0Pu71wxadDlB8fJXfjIjeJ"
+        },
+        {
+            "place": 40,
+            "title": "Body & Soul",
+            "group": "Anita Baker",
+            "track_id": "2jTPTEFwrv9v3xBzA12k1e"
+        },
+        {
+            "place": 41,
+            "title": "I Swear",
+            "group": "All-4-One",
+            "track_id": "4WUnM4KNZ0kjp0CUeoyOnS"
+        },
+        {
+            "place": 42,
+            "title": "Playaz Club",
+            "group": "Rappin' 4-Tay",
+            "track_id": "4ZYM6R5nOZywxACY90Bsla"
+        },
+        {
+            "place": 43,
+            "title": "U Will Know (From \"Jason's Lyric\")",
+            "group": "B.M.U. (Black Men United)",
+            "track_id": "5bM3IhiYoYSK9VjAux2px8"
+        },
+        {
+            "place": 44,
+            "title": "Practice What You Preach",
+            "group": "Barry White",
+            "track_id": "5PaTu8aN7ozpFbEb0DwEbt"
+        },
+        {
+            "place": 45,
+            "title": "Closer",
+            "group": "Nine Inch Nails",
+            "track_id": "5mc6EyF1OIEOhAkD0Gg9Lc"
+        },
+        {
+            "place": 46,
+            "title": "I Belong To You/How Many Ways",
+            "group": "Toni Braxton",
+            "track_id": "3V1HvZf1RMgxDRsEoxqEPF"
+        },
+        {
+            "place": 47,
+            "title": "You Mean The World To Me",
+            "group": "Toni Braxton",
+            "track_id": "5Ihd9HrPvOADyVoonH9ZjB"
+        },
+        {
+            "place": 48,
+            "title": "New Age Girl (From \"Dumb And Dumber\")",
+            "group": "Deadeye Dick",
+            "track_id": "2pJmSaPh5lMe4npn0Z6m8A"
+        },
+        {
+            "place": 49,
+            "title": "Fa All Y'all",
+            "group": "Da Brat",
+            "track_id": "1zAfYrddgjP1NmkdX7Lo6B"
+        },
+        {
+            "place": 50,
+            "title": "Something's Always Wrong",
+            "group": "Toad The Wet Sprocket",
+            "track_id": "76mIubQORy7hAXld3mavAN"
+        },
+        {
+            "place": 51,
+            "title": "Do You Wanna Get Funky",
+            "group": "C+C Music Factory",
+            "track_id": "3Vr406z58yyyO2Ofh1fbqA"
+        },
+        {
+            "place": 52,
+            "title": "Sukiyaki",
+            "group": "4PM",
+            "track_id": "6x1TTTokRumrQK4qqZONtG"
+        },
+        {
+            "place": 53,
+            "title": "You Gotta Be",
+            "group": "Des'ree",
+            "track_id": "1xtGgxif46uYcEhFCVpOQ6"
+        },
+        {
+            "place": 54,
+            "title": "Love Is All Around",
+            "group": "Wet Wet Wet",
+            "track_id": "2GB20ZuzfhCqeUIpQFCYw1"
+        },
+        {
+            "place": 55,
+            "title": "Fade Into You",
+            "group": "Mazzy Star",
+            "track_id": "1LzNfuep1bnAUR9skqdHCK"
+        },
+        {
+            "place": 56,
+            "title": "Action",
+            "group": "Terror Fabulous Featuring Nadine Sutherland",
+            "track_id": "5rDzOVVHaCGu5aoKsN92lV"
+        },
+        {
+            "place": 57,
+            "title": "Undone - The Sweater Song",
+            "group": "Weezer",
+            "track_id": "5WhtlIoxoZrMmuaWWEQhwV"
+        },
+        {
+            "place": 58,
+            "title": "Letitgo",
+            "group": "Prince",
+            "track_id": "1gKBWUSohwwtJseImUnhIt"
+        },
+        {
+            "place": 59,
+            "title": "But It's Alright",
+            "group": "Huey Lewis & The News",
+            "track_id": "4SINLKyKC7s6RAWKGB7mMt"
+        },
+        {
+            "place": 60,
+            "title": "I'd Give Anything",
+            "group": "Gerald Levert",
+            "track_id": "0VRstMfjWjROo2Rj95xswW"
+        },
+        {
+            "place": 61,
+            "title": "Get Over It",
+            "group": "Eagles",
+            "track_id": "3KSFUTxxJ2XqyrQkNwY7y8"
+        },
+        {
+            "place": 62,
+            "title": "Can U Get Wit It",
+            "group": "Usher",
+            "track_id": "4356Typ82hUiFAynbLYbPn"
+        },
+        {
+            "place": 63,
+            "title": "I'll Take Her",
+            "group": "Ill Al Skratch Featuring Brian McKnight",
+            "track_id": "4pDXNooj6RJyOGPo6w4hFs"
+        },
+        {
+            "place": 64,
+            "title": "Short Dick Man",
+            "group": "20 Fingers Featuring Gillette",
+            "track_id": "1kyGkFDLQcO5umN5HlDsEy"
+        },
+        {
+            "place": 65,
+            "title": "Nuttin' But Love",
+            "group": "Heavy D & The Boyz",
+            "track_id": "6R04xYNFuq3BilG8PlnMFd"
+        },
+        {
+            "place": 66,
+            "title": "The Most Beautifullest Thing In This World",
+            "group": "Keith Murray",
+            "track_id": "1Mo74KiCcZbBZq7liClDjo"
+        },
+        {
+            "place": 67,
+            "title": "Breakdown",
+            "group": "Fu-Schnickens",
+            "track_id": "5ETdHs01nsJdza8zmanHnW"
+        },
+        {
+            "place": 68,
+            "title": "Before I Let You Go",
+            "group": "BLACKstreet",
+            "track_id": "0msmUbVj7MTTesbn9VkxpG"
+        },
+        {
+            "place": 69,
+            "title": "Hip Hop Ride",
+            "group": "Da Youngsta's",
+            "track_id": "20wcm9FjGeAXDuMsCrBy4t"
+        },
+        {
+            "place": 70,
+            "title": "Get Up On It",
+            "group": "Keith Sweat (Featuring Kut Klose)",
+            "track_id": "0AOHC8xyS9fMWkfLBf358E"
+        },
+        {
+            "place": 71,
+            "title": "Hold My Hand",
+            "group": "Hootie & The Blowfish",
+            "track_id": "5nIu0VwPOsjkF61zfevLKh"
+        },
+        {
+            "place": 72,
+            "title": "5-4-3-2 (Yo! Time Is Up)",
+            "group": "Jade",
+            "track_id": "7tGzFqfv97DeO26stlthqB"
+        },
+        {
+            "place": 73,
+            "title": "Right Beside You",
+            "group": "Sophie B. Hawkins",
+            "track_id": "5MtCEB1r6jzRIu5KZHOrNA"
+        },
+        {
+            "place": 74,
+            "title": "Romantic Call",
+            "group": "Patra Featuring Yo-Yo",
+            "track_id": "2k1hQVRqVYgmqkKOgttGVG"
+        },
+        {
+            "place": 75,
+            "title": "Out Of Tears",
+            "group": "The Rolling Stones",
+            "track_id": "6H3kDe7CGoWYBabAeVWGiD"
+        },
+        {
+            "place": 76,
+            "title": "Whipped",
+            "group": "Jon Secada",
+            "track_id": "6osPZ7Dnybrr3LnFVCbo6U"
+        },
+        {
+            "place": 77,
+            "title": "The Way She Loves Me",
+            "group": "Richard Marx",
+            "track_id": "4LFwNJWoj74Yd71fIr1W8x"
+        },
+        {
+            "place": 78,
+            "title": "(I Could Only) Whisper Your Name",
+            "group": "Harry Connick, Jr.",
+            "track_id": "6glxguZ8tpcwJssdpvA6vx"
+        },
+        {
+            "place": 79,
+            "title": "Always In My Heart",
+            "group": "Tevin Campbell",
+            "track_id": "1IovmAC6xyddmsmzEHViO0"
+        },
+        {
+            "place": 80,
+            "title": "9th Wonder (Slicker This Year)",
+            "group": "Digable Planets",
+            "track_id": "26q6YTrXt9l8qshIveiTX9"
+        },
+        {
+            "place": 81,
+            "title": "When We Dance",
+            "group": "Sting",
+            "track_id": "3zYufmyv6HOuiHn1eMR6Ja"
+        },
+        {
+            "place": 82,
+            "title": "Good Enough",
+            "group": "Sarah McLachlan",
+            "track_id": "3xZMPZQYETEn4hjor3TR1A"
+        },
+        {
+            "place": 83,
+            "title": "The Lion Sleeps Tonight (Wimoweh)",
+            "group": "The Tokens",
+            "track_id": "2F4FNcz68howQWD4zaGJSi"
+        },
+        {
+            "place": 84,
+            "title": "Booti Call",
+            "group": "BLACKstreet",
+            "track_id": "75bbRbdMnh37sVRbtmVQ7n"
+        },
+        {
+            "place": 85,
+            "title": "Watermelon Crawl",
+            "group": "Tracy Byrd",
+            "track_id": "0Pe4IdGiKRwUnZykoScrWo"
+        },
+        {
+            "place": 86,
+            "title": "What's Up",
+            "group": "DJ Miko",
+            "track_id": "1kXGdxBL1dwZkoba9tRGJa"
+        },
+        {
+            "place": 87,
+            "title": "Take It Easy",
+            "group": "Mad Lion",
+            "track_id": "0Is9dX0e3uoFb6jtg09Yle"
+        },
+        {
+            "place": 88,
+            "title": "You Don't Know Nothin'",
+            "group": "For Real",
+            "track_id": "1pLQoF3VeG6KwNJRys3eq3"
+        },
+        {
+            "place": 89,
+            "title": "Dance Naked",
+            "group": "John Mellencamp",
+            "track_id": "4f4111b2RN9YbNCArl8NX8"
+        },
+        {
+            "place": 90,
+            "title": "Third Rock From The Sun",
+            "group": "Joe Diffie",
+            "track_id": "4mbYqJ53p9IIltgH19S5em"
+        },
+        {
+            "place": 91,
+            "title": "Hungah",
+            "group": "Karyn White",
+            "track_id": "5dwb7j5AzP2w15YIEzEKQ8"
+        },
+        {
+            "place": 92,
+            "title": "Tic Toc",
+            "group": "Lords Of The Underground",
+            "track_id": "75isr7CrwvxzUrvl3L7GLK"
+        },
+        {
+            "place": 93,
+            "title": "Shut Up And Kiss Me",
+            "group": "Mary Chapin Carpenter",
+            "track_id": "4Tn2llBm1g0UlWctmgPL8Z"
+        },
+        {
+            "place": 94,
+            "title": "Word Is Bond",
+            "group": "Brand Nubian",
+            "track_id": "4PcO1Spa5Vy5zFePNzTRap"
+        },
+        {
+            "place": 95,
+            "title": "Through The Rain",
+            "group": "Tanya Blount",
+            "track_id": "60Ylk6grjBuP7j0McQeGAm"
+        },
+        {
+            "place": 96,
+            "title": "Supernova",
+            "group": "Liz Phair",
+            "track_id": "0xQ8FPMnv2mG9VhTgpxn2R"
+        },
+        {
+            "place": 97,
+            "title": "You Better Wait",
+            "group": "Steve Perry",
+            "track_id": "5EjFxPRVX15C6DmGuZSYgq"
+        },
+        {
+            "place": 98,
+            "title": "Am I Wrong",
+            "group": "Love Spit Love",
+            "track_id": "6Ec5LeRzkisa5KJtwLfOoW"
+        },
+        {
+            "place": 99,
+            "title": "Your Love Is A...",
+            "group": "Whitehead Bros.",
+            "track_id": "25tXLXv2ShHwmtUUTunihg"
+        },
+        {
+            "place": 100,
+            "title": "7 Seconds",
+            "group": "Youssou N'Dour & Neneh Cherry",
+            "track_id": "4sv1iemiMkkZVTUbV16C8L"
+        }
+    ]
+}

@@ -1,0 +1,605 @@
+{
+    "has_spotify_track_id": true,
+    "hot_100": [
+        {
+            "place": 1,
+            "title": "Bad Habit",
+            "group": "Steve Lacy",
+            "track_id": "5CM4UuQ9Gnd6K2YyKGPMoK"
+        },
+        {
+            "place": 2,
+            "title": "Unholy",
+            "group": "Sam Smith & Kim Petras",
+            "track_id": "3nqQXoyQOWXiESFLlDF1hG"
+        },
+        {
+            "place": 3,
+            "title": "As It Was",
+            "group": "Harry Styles",
+            "track_id": "1qEmFfgcLObUfQm0j1W2CK"
+        },
+        {
+            "place": 4,
+            "title": "I Like You (A Happier Song)",
+            "group": "Post Malone Featuring Doja Cat",
+            "track_id": "0O6u0VJ46W86TxN9wgyqDj"
+        },
+        {
+            "place": 5,
+            "title": "Sunroof",
+            "group": "Nicky Youre & dazy",
+            "track_id": "5YqEzk3C5c3UZ1D5fJUlXA"
+        },
+        {
+            "place": 6,
+            "title": "I Ain't Worried",
+            "group": "OneRepublic",
+            "track_id": "4h9wh7iOZ0GGn8QVp4RAOB"
+        },
+        {
+            "place": 7,
+            "title": "You Proof",
+            "group": "Morgan Wallen",
+            "track_id": "59uQI0PADDKeE6UZDTJEe8"
+        },
+        {
+            "place": 8,
+            "title": "Super Freaky Girl",
+            "group": "Nicki Minaj",
+            "track_id": "2yjlYDiNiQkdxVqTlaSrlX"
+        },
+        {
+            "place": 9,
+            "title": "The Kind Of Love We Make",
+            "group": "Luke Combs",
+            "track_id": "28n8z9IQKyjMPxmvYMBqZa"
+        },
+        {
+            "place": 10,
+            "title": "About Damn Time",
+            "group": "Lizzo",
+            "track_id": "6HMtHNpW6YPi1hrw9tgF8P"
+        },
+        {
+            "place": 11,
+            "title": "Vegas",
+            "group": "Doja Cat",
+            "track_id": "0hquQWY3xvYqN4qtiquniF"
+        },
+        {
+            "place": 12,
+            "title": "Wait For U",
+            "group": "Future Featuring Drake & Tems",
+            "track_id": "1NUSXgqkenc0sP7idI2s8g"
+        },
+        {
+            "place": 13,
+            "title": "Titi Me Pregunto",
+            "group": "Bad Bunny",
+            "track_id": "1IHWl5LamUGEuP4ozKQSXZ"
+        },
+        {
+            "place": 14,
+            "title": "Late Night Talking",
+            "group": "Harry Styles",
+            "track_id": "4PoZGcCnlUhvhtXZ8IoMkk"
+        },
+        {
+            "place": 15,
+            "title": "Me Porto Bonito",
+            "group": "Bad Bunny & Chencho Corleone",
+            "track_id": "6Sq7ltF9Qa7SNFBsV5Cogx"
+        },
+        {
+            "place": 16,
+            "title": "Something In The Orange",
+            "group": "Zach Bryan",
+            "track_id": "1OAU9dcBoss8X8JIs5TjFp"
+        },
+        {
+            "place": 17,
+            "title": "Wasted On You",
+            "group": "Morgan Wallen",
+            "track_id": "3cBsEDNhFI9E82vPj3kvi3"
+        },
+        {
+            "place": 18,
+            "title": "I'm Good (Blue)",
+            "group": "David Guetta & Bebe Rexha",
+            "track_id": "4uUG5RXrOk84mYEfFvj3cK"
+        },
+        {
+            "place": 19,
+            "title": "She Had Me At Heads Carolina",
+            "group": "Cole Swindell",
+            "track_id": "200x8ONbPfFzByUr3fVz46"
+        },
+        {
+            "place": 20,
+            "title": "Heat Waves",
+            "group": "Glass Animals",
+            "track_id": "3USxtqRwSYz57Ewm6wWRMp"
+        },
+        {
+            "place": 21,
+            "title": "Jimmy Cooks",
+            "group": "Drake Featuring 21 Savage",
+            "track_id": "6snwWAqjVOuI560Ed6TkkX"
+        },
+        {
+            "place": 22,
+            "title": "Tomorrow 2",
+            "group": "GloRilla & Cardi B",
+            "track_id": "7zWQMZzbxheD9PK9Q9wlMC"
+        },
+        {
+            "place": 23,
+            "title": "Under The Influence",
+            "group": "Chris Brown",
+            "track_id": "5IgjP7X4th6nMNDh4akUHb"
+        },
+        {
+            "place": 24,
+            "title": "5 Foot 9",
+            "group": "Tyler Hubbard",
+            "track_id": "6Cpz693XZKlnvcxXs1886F"
+        },
+        {
+            "place": 25,
+            "title": "First Class",
+            "group": "Jack Harlow",
+            "track_id": "3w1WjD2zJqjBjDz5fwqQPJ"
+        },
+        {
+            "place": 26,
+            "title": "Hold Me Closer",
+            "group": "Elton John & Britney Spears",
+            "track_id": "5TJEBoTCDbJXiKMdCN9pd3"
+        },
+        {
+            "place": 27,
+            "title": "Rock And A Hard Place",
+            "group": "Bailey Zimmerman",
+            "track_id": "38pJ0tvfsXui9GMCS4weut"
+        },
+        {
+            "place": 28,
+            "title": "Glimpse Of Us",
+            "group": "Joji",
+            "track_id": "4ewazQLXFTDC8XvCbhvtXs"
+        },
+        {
+            "place": 29,
+            "title": "Fall In Love",
+            "group": "Bailey Zimmerman",
+            "track_id": "1oTfguLrDvLj7db9lY9syo"
+        },
+        {
+            "place": 30,
+            "title": "Unstoppable",
+            "group": "Sia",
+            "track_id": "0F3v8p8ZnEGtZDxNcJ5Klq"
+        },
+        {
+            "place": 31,
+            "title": "Running Up That Hill (A Deal With God)",
+            "group": "Kate Bush",
+            "track_id": "1PtQJZVZIdWIYdARpZRDFO"
+        },
+        {
+            "place": 32,
+            "title": "Star Walkin' (League Of Legends Worlds Anthem)",
+            "group": "Lil Nas X",
+            "track_id": "38T0tPVZHcPZyhtOcCP7pF"
+        },
+        {
+            "place": 33,
+            "title": "Romantic Homicide",
+            "group": "d4vd",
+            "track_id": "1xK59OXxi2TAAAbmZK0kBL"
+        },
+        {
+            "place": 34,
+            "title": "Betty (Get Money)",
+            "group": "Yung Gravy",
+            "track_id": "4cacyP5c3PMlfnyjpg13xW"
+        },
+        {
+            "place": 35,
+            "title": "Moscow Mule",
+            "group": "Bad Bunny",
+            "track_id": "68PKjW8tZAQHhgtQmYnqfV"
+        },
+        {
+            "place": 36,
+            "title": "Cuff It",
+            "group": "Beyonce",
+            "track_id": "3IHaiorYWOcr8Kzs85PWF7"
+        },
+        {
+            "place": 37,
+            "title": "Die For You",
+            "group": "The Weeknd & Ariana Grande",
+            "track_id": "4W4fNrZYkobj539TOWsLO2"
+        },
+        {
+            "place": 38,
+            "title": "Victoria's Secret",
+            "group": "Jax",
+            "track_id": "4svaKoxMMP7ImmKrD5hfQu"
+        },
+        {
+            "place": 39,
+            "title": "Thank God",
+            "group": "Kane Brown With Katelyn Brown",
+            "track_id": "1brnLTvarI9D1hLP6z2Ar8"
+        },
+        {
+            "place": 40,
+            "title": "Son Of A Sinner",
+            "group": "Jelly Roll",
+            "track_id": "4nwHe7uMXAPRY7f2Y7pKZB"
+        },
+        {
+            "place": 41,
+            "title": "Big Energy",
+            "group": "Latto",
+            "track_id": "4pi1G1x8tl9VfdD9bL3maT"
+        },
+        {
+            "place": 42,
+            "title": "What My World Spins Around",
+            "group": "Jordan Davis",
+            "track_id": "4AcumNCSXXoAtwUaEMTATV"
+        },
+        {
+            "place": 43,
+            "title": "In A Minute",
+            "group": "Lil Baby",
+            "track_id": ""
+        },
+        {
+            "place": 44,
+            "title": "Last Last",
+            "group": "Burna Boy",
+            "track_id": "5YbPxJwPfrj7uswNwoF1pJ"
+        },
+        {
+            "place": 45,
+            "title": "Left And Right",
+            "group": "Charlie Puth Featuring Jung Kook",
+            "track_id": "5Odq8ohlgIbQKMZivbWkEo"
+        },
+        {
+            "place": 46,
+            "title": "Free Mind",
+            "group": "Tems",
+            "track_id": "2mzM4Y0Rnx2BDZqRnhQ5Q6"
+        },
+        {
+            "place": 47,
+            "title": "Until I Found You",
+            "group": "Stephen Sanchez",
+            "track_id": "0T5iIrXA4p5GsubkhuBIKV"
+        },
+        {
+            "place": 48,
+            "title": "Staying Alive",
+            "group": "DJ Khaled Featuring Drake & Lil Baby",
+            "track_id": "7Ddk8FhoYKdsVoX9AOCPMm"
+        },
+        {
+            "place": 49,
+            "title": "Efecto",
+            "group": "Bad Bunny",
+            "track_id": "7kQZlMBHCzo1nCDZgYkUL6"
+        },
+        {
+            "place": 50,
+            "title": "Break My Soul",
+            "group": "Beyonce",
+            "track_id": "5pyoxDZ1PX0KxBxiRVxA4U"
+        },
+        {
+            "place": 51,
+            "title": "Evergreen",
+            "group": "Omar Apollo",
+            "track_id": "2htX1dRRwZ3Da4N8Q2dG28"
+        },
+        {
+            "place": 52,
+            "title": "F.N.F. (Let's Go)",
+            "group": "Hitkidd & GloRilla",
+            "track_id": "1vrFJDrysqmsNAgyjBzx4f"
+        },
+        {
+            "place": 53,
+            "title": "Whiskey On You",
+            "group": "Nate Smith",
+            "track_id": "71lK60jidcsiwpbajRFVYX"
+        },
+        {
+            "place": 54,
+            "title": "Wishful Drinking",
+            "group": "Ingrid Andress With Sam Hunt",
+            "track_id": "0lMTEiMApsu41aCp5UvYrs"
+        },
+        {
+            "place": 55,
+            "title": "2 Be Loved (Am I Ready)",
+            "group": "Lizzo",
+            "track_id": "2rmwqU7yzTvzkiaRV53DpT"
+        },
+        {
+            "place": 56,
+            "title": "Don't Come Lookin'",
+            "group": "Jackson Dean",
+            "track_id": "0qYhjLf8PeHflSbCYg2414"
+        },
+        {
+            "place": 57,
+            "title": "Bones",
+            "group": "Imagine Dragons",
+            "track_id": "54ipXppHLA8U4yqpOFTUhr"
+        },
+        {
+            "place": 58,
+            "title": "Golden Hour",
+            "group": "JVKE",
+            "track_id": "5odlY52u43F5BjByhxg7wg"
+        },
+        {
+            "place": 59,
+            "title": "Numb",
+            "group": "Marshmello & Khalid",
+            "track_id": "10xV5l9nhLvFpR8mqzs0bL"
+        },
+        {
+            "place": 60,
+            "title": "Wait In The Truck",
+            "group": "HARDY Featuring Lainey Wilson",
+            "track_id": "1eB7dkHiuF8IgMG2fQTJ1I"
+        },
+        {
+            "place": 61,
+            "title": "Half Of Me",
+            "group": "Thomas Rhett Featuring Riley Green",
+            "track_id": "4sVG4JErSc8oV1tb1Pijp2"
+        },
+        {
+            "place": 62,
+            "title": "Billie Eilish.",
+            "group": "Armani White",
+            "track_id": "27ZZdyTSQWI7Cug2d2PkqV"
+        },
+        {
+            "place": 63,
+            "title": "Gatubela",
+            "group": "Karol G x Maldy",
+            "track_id": "6Vn1vje8yMw2OY6IOk9dkH"
+        },
+        {
+            "place": 64,
+            "title": "Sleazy Flow",
+            "group": "SleazyWorld Go Featuring Lil Baby",
+            "track_id": "3HD2dcCVCMIUgq3ZiSExpD"
+        },
+        {
+            "place": 65,
+            "title": "All Mine",
+            "group": "Brent Faiyaz",
+            "track_id": "3W4W7rpd8xSmEWlOVh1X3D"
+        },
+        {
+            "place": 66,
+            "title": "Music For A Sushi Restaurant",
+            "group": "Harry Styles",
+            "track_id": "5LYMamLv12UPbemOaTPyeV"
+        },
+        {
+            "place": 67,
+            "title": "Freestyle",
+            "group": "Lil Baby",
+            "track_id": "5BbdKBZO0TH0GhfxUfyhL9"
+        },
+        {
+            "place": 68,
+            "title": "Despecha",
+            "group": "Rosalia",
+            "track_id": "53tfEupEzQRtVFOeZvk7xq"
+        },
+        {
+            "place": 69,
+            "title": "Last Night Lonely",
+            "group": "Jon Pardi",
+            "track_id": "0k11c8vwyeNSGQex6UMa1v"
+        },
+        {
+            "place": 70,
+            "title": "La Bachata",
+            "group": "Manuel Turizo",
+            "track_id": "3tt9i3Hhzq84dPS8H7iSiJ"
+        },
+        {
+            "place": 71,
+            "title": "Pick Me Up",
+            "group": "Gabby Barrett",
+            "track_id": "2ayunCyHF9W6EnwXbHEr4C"
+        },
+        {
+            "place": 72,
+            "title": "Neverita",
+            "group": "Bad Bunny",
+            "track_id": "23CY8RdjJgTfxvWIDeOCx2"
+        },
+        {
+            "place": 73,
+            "title": "She Likes It",
+            "group": "Russell Dickerson & Jake Scott",
+            "track_id": "5PcKoz1nRjaYxFOaPN8ahD"
+        },
+        {
+            "place": 74,
+            "title": "Dah Dah DahDah",
+            "group": "Nardo Wick",
+            "track_id": "2TSfStvlAMLw89u3tali79"
+        },
+        {
+            "place": 75,
+            "title": "Calm Down",
+            "group": "Rema & Selena Gomez",
+            "track_id": "1s7oOCT8vauUh01PbJD6ps"
+        },
+        {
+            "place": 76,
+            "title": "Country On",
+            "group": "Luke Bryan",
+            "track_id": "4QYjSC0W6UlZ1N0mBSH9CU"
+        },
+        {
+            "place": 77,
+            "title": "No Se Va",
+            "group": "Grupo Frontera",
+            "track_id": "36sbwoTuGO97uJGsks7OHV"
+        },
+        {
+            "place": 78,
+            "title": "Truth About You",
+            "group": "Mitchell Tenpenny",
+            "track_id": "3o4IAK6fWaZ0107dIdB2im"
+        },
+        {
+            "place": 79,
+            "title": "Dark Red",
+            "group": "Steve Lacy",
+            "track_id": "3cJjqvXbFwiWgnuWgoyhPM"
+        },
+        {
+            "place": 80,
+            "title": "Put It On Me",
+            "group": "YoungBoy Never Broke Again",
+            "track_id": "6K2anECyrckidwf5wxS78Q"
+        },
+        {
+            "place": 81,
+            "title": "Toxic",
+            "group": "YG",
+            "track_id": "3UNV3RoBorI6KvYS4B5D8l"
+        },
+        {
+            "place": 82,
+            "title": "Static",
+            "group": "Steve Lacy",
+            "track_id": "4OmfWzukSVD140NiAIEjem"
+        },
+        {
+            "place": 83,
+            "title": "Soul",
+            "group": "Lee Brice",
+            "track_id": "2ELMHEivoT1zBVZHVAC4b6"
+        },
+        {
+            "place": 84,
+            "title": "Wild As Her",
+            "group": "Corey Kent",
+            "track_id": "4RG7P0CXQ4pe0OeCAHjX5L"
+        },
+        {
+            "place": 85,
+            "title": "Bzrp Music Sessions, Vol. 52",
+            "group": "Bizarrap & Quevedo",
+            "track_id": "1Ue1BlDAbZPVcgaqbIiHr4"
+        },
+        {
+            "place": 86,
+            "title": "Out In The Middle",
+            "group": "Zac Brown Band",
+            "track_id": "6GG73Jik4jUlQCkKg9JuGO"
+        },
+        {
+            "place": 87,
+            "title": "Ghost Story",
+            "group": "Carrie Underwood",
+            "track_id": "5j3iBuHq6vv7VcBo4Y2QrK"
+        },
+        {
+            "place": 88,
+            "title": "Shut Down",
+            "group": "BLACKPINK",
+            "track_id": "7gRFDGEzF9UkBV233yv2dc"
+        },
+        {
+            "place": 89,
+            "title": "Good Love",
+            "group": "City Girls & Usher",
+            "track_id": "5EzL7hGT9g2Tvqsy158Lu9"
+        },
+        {
+            "place": 90,
+            "title": "Snap",
+            "group": "Rosa Linn",
+            "track_id": "76OGwb5RA9h4FxQPT33ekc"
+        },
+        {
+            "place": 91,
+            "title": "Like I Love Country Music",
+            "group": "Kane Brown",
+            "track_id": "5C9jQ8ikTOieveuORd8wlf"
+        },
+        {
+            "place": 92,
+            "title": "World's Smallest Violin",
+            "group": "AJR",
+            "track_id": "68EkhVWIeULhHxcbi1QhzK"
+        },
+        {
+            "place": 93,
+            "title": "Love You Better",
+            "group": "Future",
+            "track_id": "0uaYHM2SGtMr5Rav2qHo77"
+        },
+        {
+            "place": 94,
+            "title": "Tennessee Orange",
+            "group": "Megan Moroney",
+            "track_id": "6DLbBlGIOjjEj0dNN25zhZ"
+        },
+        {
+            "place": 95,
+            "title": "With A Woman You Love",
+            "group": "Justin Moore",
+            "track_id": "2utAnSunR0c0Bl9Rualvf6"
+        },
+        {
+            "place": 96,
+            "title": "Gotta Move On",
+            "group": "Diddy & Bryson Tiller",
+            "track_id": "3K9IrLs25jHtvWjAAFAfav"
+        },
+        {
+            "place": 97,
+            "title": "Forget Me",
+            "group": "Lewis Capaldi",
+            "track_id": "3iHzKA9HlXf5wsGdsrsnSA"
+        },
+        {
+            "place": 98,
+            "title": "Down Home",
+            "group": "Jimmie Allen",
+            "track_id": "5MRzIekZQBob4XzDYNVtAZ"
+        },
+        {
+            "place": 99,
+            "title": "What He Didn't Do",
+            "group": "Carly Pearce",
+            "track_id": "5OLaVCAM2pqg7X9mAM2W8M"
+        },
+        {
+            "place": 100,
+            "title": "Talk",
+            "group": "Yeat",
+            "track_id": "0oO1AbL92F6329z13C2qQH"
+        }
+    ]
+}

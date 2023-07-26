@@ -1,0 +1,605 @@
+{
+    "has_spotify_track_id": true,
+    "hot_100": [
+        {
+            "place": 1,
+            "title": "Stay",
+            "group": "The Kid LAROI & Justin Bieber",
+            "track_id": "5HCyWlXZPP0y6Gqq8TgA20"
+        },
+        {
+            "place": 2,
+            "title": "Industry Baby",
+            "group": "Lil Nas X & Jack Harlow",
+            "track_id": "5Z9KJZvQzH6PFmb8SNkxuk"
+        },
+        {
+            "place": 3,
+            "title": "Fancy Like",
+            "group": "Walker Hayes",
+            "track_id": "2YGbDMRGQHiabOxvWG0UM4"
+        },
+        {
+            "place": 4,
+            "title": "Way 2 Sexy",
+            "group": "Drake Featuring Future & Young Thug",
+            "track_id": "7qLr3HMApUbyDkUvgIvHnB"
+        },
+        {
+            "place": 5,
+            "title": "Bad Habits",
+            "group": "Ed Sheeran",
+            "track_id": "5Q9DzNnrUCkJV1t1wWjYIX"
+        },
+        {
+            "place": 6,
+            "title": "Good 4 U",
+            "group": "Olivia Rodrigo",
+            "track_id": "7hN0r6myRrvoFrXK1C0ne9"
+        },
+        {
+            "place": 7,
+            "title": "Kiss Me More",
+            "group": "Doja Cat Featuring SZA",
+            "track_id": "3DarAbFujv6eYNliUTyqtz"
+        },
+        {
+            "place": 8,
+            "title": "Levitating",
+            "group": "Dua Lipa",
+            "track_id": "5nujrmhLynf4yMoMtj8AQF"
+        },
+        {
+            "place": 9,
+            "title": "Knife Talk",
+            "group": "Drake Featuring 21 Savage & Project Pat",
+            "track_id": "6Kj17Afjo1OKJYpf5VzCeo"
+        },
+        {
+            "place": 10,
+            "title": "Essence",
+            "group": "Wizkid Featuring Justin Bieber & Tems",
+            "track_id": "1mSdbey7RstGLY2udgXv74"
+        },
+        {
+            "place": 11,
+            "title": "Shivers",
+            "group": "Ed Sheeran",
+            "track_id": "59zbXPD0j7JxsVVm480g3b"
+        },
+        {
+            "place": 12,
+            "title": "My Universe",
+            "group": "Coldplay x BTS",
+            "track_id": "1DlczmjByrS4qxRVfGjpqN"
+        },
+        {
+            "place": 13,
+            "title": "Need To Know",
+            "group": "Doja Cat",
+            "track_id": "6Uj1ctrBOjOas8xZXGqKk4"
+        },
+        {
+            "place": 14,
+            "title": "Save Your Tears",
+            "group": "The Weeknd & Ariana Grande",
+            "track_id": "1oFAF1hdPOickyHgbuRjyX"
+        },
+        {
+            "place": 15,
+            "title": "Heat Waves",
+            "group": "Glass Animals",
+            "track_id": "3USxtqRwSYz57Ewm6wWRMp"
+        },
+        {
+            "place": 16,
+            "title": "Beggin'",
+            "group": "Maneskin",
+            "track_id": "3Wrjm47oTz2sjIgck11l5e"
+        },
+        {
+            "place": 17,
+            "title": "Montero (Call Me By Your Name)",
+            "group": "Lil Nas X",
+            "track_id": "7JvmJDDMZMvWaWARsWK9Da"
+        },
+        {
+            "place": 18,
+            "title": "You Right",
+            "group": "Doja Cat & The Weeknd",
+            "track_id": "0IakguBBeTUsAILmugkEam"
+        },
+        {
+            "place": 19,
+            "title": "If I Didn't Love You",
+            "group": "Jason Aldean & Carrie Underwood",
+            "track_id": "1WQ40xJSvgDmD9K7ckJwux"
+        },
+        {
+            "place": 20,
+            "title": "Girls Want Girls",
+            "group": "Drake Featuring Lil Baby",
+            "track_id": "62Tm2OhMzhpIue1NtxbLnP"
+        },
+        {
+            "place": 21,
+            "title": "Traitor",
+            "group": "Olivia Rodrigo",
+            "track_id": "6mXOjwvNplaHtMNi6tHGSK"
+        },
+        {
+            "place": 22,
+            "title": "Take My Breath",
+            "group": "The Weeknd",
+            "track_id": "2vgUijXOTRMnWXDtvgMp2b"
+        },
+        {
+            "place": 23,
+            "title": "Sharing Locations",
+            "group": "Meek Mill Featuring Lil Baby & Lil Durk",
+            "track_id": "3T9BKc4kB7ukeNQrCqv6ZV"
+        },
+        {
+            "place": 24,
+            "title": "Chasing After You",
+            "group": "Ryan Hurd With Maren Morris",
+            "track_id": "3MkXV52jXtsG4pvKp4cGE8"
+        },
+        {
+            "place": 25,
+            "title": "Pepas",
+            "group": "Farruko",
+            "track_id": "5fwSHlTEWpluwOM0Sxnh5k"
+        },
+        {
+            "place": 26,
+            "title": "Thats What I Want",
+            "group": "Lil Nas X",
+            "track_id": "0e8nrvls4Qqv5Rfa2UhqmO"
+        },
+        {
+            "place": 27,
+            "title": "Wockesha",
+            "group": "Moneybagg Yo",
+            "track_id": "0nqhKXDjsyBMvbeWmgijD0"
+        },
+        {
+            "place": 28,
+            "title": "Cold Beer Calling My Name",
+            "group": "Jameson Rodgers Featuring Luke Combs",
+            "track_id": "3dV1fjKOlLnaNK5MeZHXGv"
+        },
+        {
+            "place": 29,
+            "title": "Happier Than Ever",
+            "group": "Billie Eilish",
+            "track_id": "4RVwu0g32PAqgUiJoXsdF8"
+        },
+        {
+            "place": 30,
+            "title": "Fair Trade",
+            "group": "Drake Featuring Travis Scott",
+            "track_id": "4hMbhGgw1hnEl0BXTI99Vn"
+        },
+        {
+            "place": 31,
+            "title": "Deja Vu",
+            "group": "Olivia Rodrigo",
+            "track_id": "4QF74SCZBCRdJwG1DUTuQ5"
+        },
+        {
+            "place": 32,
+            "title": "Cold Heart (PNAU Remix)",
+            "group": "Elton John & Dua Lipa",
+            "track_id": "6zSpb8dQRaw0M1dK8PBwQz"
+        },
+        {
+            "place": 33,
+            "title": "Memory I Don't Mess With",
+            "group": "Lee Brice",
+            "track_id": "1zYZs8Vbjhbzx5M3olcRnm"
+        },
+        {
+            "place": 34,
+            "title": "A-O-K",
+            "group": "Tai Verdes",
+            "track_id": "1sx0XsWUusUoPstbvokZjP"
+        },
+        {
+            "place": 35,
+            "title": "Love Nwantiti (Ah Ah Ah)",
+            "group": "CKay",
+            "track_id": "2Xr1dTzJee307rmrkt8c0g"
+        },
+        {
+            "place": 36,
+            "title": "Intro (Hate On Me)",
+            "group": "Meek Mill",
+            "track_id": "4s7TIubkdsgdtDEDFEAYVL"
+        },
+        {
+            "place": 37,
+            "title": "Leave The Door Open",
+            "group": "Silk Sonic (Bruno Mars & Anderson .Paak)",
+            "track_id": "02VBYrHfVwfEWXk5DXyf0T"
+        },
+        {
+            "place": 38,
+            "title": "Gyalis",
+            "group": "Capella Grey",
+            "track_id": "7wpyrkjEgz7W1vNYDxMKrF"
+        },
+        {
+            "place": 39,
+            "title": "Peaches",
+            "group": "Justin Bieber Featuring Daniel Caesar & Giveon",
+            "track_id": "6zQPlK93TDUIfhRYjuRJhy"
+        },
+        {
+            "place": 40,
+            "title": "Leave Before You Love Me",
+            "group": "Marshmello X Jonas Brothers",
+            "track_id": "4qu63nuBpdn0qHUHuObEj1"
+        },
+        {
+            "place": 41,
+            "title": "Love Again",
+            "group": "Dua Lipa",
+            "track_id": "4rPkN1FMzQyFNP9cLUGIIB"
+        },
+        {
+            "place": 42,
+            "title": "My Boy",
+            "group": "Elvie Shane",
+            "track_id": "1RGasjWLZ4qMN7wbtkLa3u"
+        },
+        {
+            "place": 43,
+            "title": "Buy Dirt",
+            "group": "Jordan Davis Featuring Luke Bryan",
+            "track_id": "5Vd5ITFfHJDzmK6N35ne3d"
+        },
+        {
+            "place": 44,
+            "title": "Hurricane",
+            "group": "Kanye West",
+            "track_id": "44I7sqKYCAa7bQdVywkShO"
+        },
+        {
+            "place": 45,
+            "title": "I Was On A Boat That Day",
+            "group": "Old Dominion",
+            "track_id": "3zkge7duYNYjsByp6Q0qZM"
+        },
+        {
+            "place": 46,
+            "title": "Family Ties",
+            "group": "Baby Keem & Kendrick Lamar",
+            "track_id": "3QFInJAm9eyaho5vBzxInN"
+        },
+        {
+            "place": 47,
+            "title": "Meet Me At Our Spot",
+            "group": "THE ANXIETY: WILLOW & Tyler Cole",
+            "track_id": "07MDkzWARZaLEdKxo6yArG"
+        },
+        {
+            "place": 48,
+            "title": "Wild Side",
+            "group": "Normani Featuring Cardi B",
+            "track_id": "2SSWIysBzyEEPJchLh3LrP"
+        },
+        {
+            "place": 49,
+            "title": "Late At Night",
+            "group": "Roddy Ricch",
+            "track_id": "4SWWe2OYC4mqf40Gc2RSdl"
+        },
+        {
+            "place": 50,
+            "title": "Have Mercy",
+            "group": "Chloe",
+            "track_id": "5Wg8oD0Jwag3OdlOE6kozN"
+        },
+        {
+            "place": 51,
+            "title": "You Should Probably Leave",
+            "group": "Chris Stapleton",
+            "track_id": "2UikqkwBv7aIvlixeVXHWt"
+        },
+        {
+            "place": 52,
+            "title": "Whole Lotta Money",
+            "group": "BIA Featuring Nicki Minaj",
+            "track_id": "67G6iaOw8DZqp1z8STR89R"
+        },
+        {
+            "place": 53,
+            "title": "Cold As You",
+            "group": "Luke Combs",
+            "track_id": "6ZxrUCaynLgKSUudACOTwj"
+        },
+        {
+            "place": 54,
+            "title": "You Time",
+            "group": "Scotty McCreery",
+            "track_id": "4cmAs8zoGa4tJ8g9rkOxOx"
+        },
+        {
+            "place": 55,
+            "title": "Drunk (And I Don't Wanna Go Home)",
+            "group": "Elle King & Miranda Lambert",
+            "track_id": "0QULNNd9z5s35entfiiXoa"
+        },
+        {
+            "place": 56,
+            "title": "Baddest",
+            "group": "Yung Bleu, Chris Brown & 2 Chainz",
+            "track_id": "33N9JGkr9McbbPEMgUjqPj"
+        },
+        {
+            "place": 57,
+            "title": "Thinking 'Bout You",
+            "group": "Dustin Lynch Featuring Lauren Alaina Or MacKenzie Porter",
+            "track_id": "4wBjKhJx6JnGoNJfJs24pd"
+        },
+        {
+            "place": 58,
+            "title": "Butter",
+            "group": "BTS",
+            "track_id": "6jjYDGxVJsWS0a5wlVF5vS"
+        },
+        {
+            "place": 59,
+            "title": "Too Easy",
+            "group": "Gunna & Future",
+            "track_id": "1t55dGrBkLvKDzNa9QJ3LV"
+        },
+        {
+            "place": 60,
+            "title": "Hot",
+            "group": "Meek Mill Featuring Moneybagg Yo",
+            "track_id": "2g3qKijfeHfDyM7Fmaoi5M"
+        },
+        {
+            "place": 61,
+            "title": "Your Heart",
+            "group": "Joyner Lucas & J. Cole",
+            "track_id": "1KZ0bNycLFxF2AZc4ozqVx"
+        },
+        {
+            "place": 62,
+            "title": "Woman",
+            "group": "Doja Cat",
+            "track_id": "6Uj1ctrBOjOas8xZXGqKk4"
+        },
+        {
+            "place": 63,
+            "title": "2055",
+            "group": "Sleepy Hallow",
+            "track_id": "6DEhCZshdakJvuqvUKGyhO"
+        },
+        {
+            "place": 64,
+            "title": "No Friends In The Industry",
+            "group": "Drake",
+            "track_id": "2tUL6dZf1mywCj5WvCPZw6"
+        },
+        {
+            "place": 65,
+            "title": "Champagne Poetry",
+            "group": "Drake",
+            "track_id": "2HSmyk2qMN8WQjuGhaQgCk"
+        },
+        {
+            "place": 66,
+            "title": "Expensive Pain",
+            "group": "Meek Mill",
+            "track_id": "3IB9TLsa1wAxmcGDbbaT5S"
+        },
+        {
+            "place": 67,
+            "title": "Knowing You",
+            "group": "Kenny Chesney",
+            "track_id": "6DV4t9Vkkp4pL6eyeXGcPz"
+        },
+        {
+            "place": 68,
+            "title": "Memory",
+            "group": "Kane Brown X blackbear",
+            "track_id": "6y6jbcPG4Yn3Du4moXaenr"
+        },
+        {
+            "place": 69,
+            "title": "On My Soul",
+            "group": "Meek Mill",
+            "track_id": "2IRZnDFmlqMuOrYOLnZZyc"
+        },
+        {
+            "place": 70,
+            "title": "Thot Shit",
+            "group": "Megan Thee Stallion",
+            "track_id": "5zNW5ARjYhJQJz1AChP33n"
+        },
+        {
+            "place": 71,
+            "title": "Drinkin' Beer. Talkin' God. Amen.",
+            "group": "Chase Rice Featuring Florida Georgia Line",
+            "track_id": "7DEqvsjrQHye8KrT969BLs"
+        },
+        {
+            "place": 72,
+            "title": "Blue Note$ II",
+            "group": "Meek Mill Featuring Lil Uzi Vert",
+            "track_id": "7Gs3otHnZDq514kFHf0nx7"
+        },
+        {
+            "place": 73,
+            "title": "Volvi",
+            "group": "Aventura x Bad Bunny",
+            "track_id": "2vmfvSoZBFAt9hhRoEByLi"
+        },
+        {
+            "place": 74,
+            "title": "Todo de Ti",
+            "group": "Rauw Alejandro",
+            "track_id": "2NFadq6pUeiVEihLvUlOSr"
+        },
+        {
+            "place": 75,
+            "title": "Jugaste y Sufri",
+            "group": "Eslabon Armado Featuring DannyLux",
+            "track_id": "3NqBxTOMCJ3zW9CIP51td4"
+        },
+        {
+            "place": 76,
+            "title": "Outside (100 MPH)",
+            "group": "Meek Mill",
+            "track_id": "2LlT7tJFixAETSHrZpXLld"
+        },
+        {
+            "place": 77,
+            "title": "Same Boat",
+            "group": "Zac Brown Band",
+            "track_id": "4HD9SLK4s9rwRyuFt3n8N7"
+        },
+        {
+            "place": 78,
+            "title": "Last One Standing",
+            "group": "Skylar Grey, Polo G, Mozzy & Eminem",
+            "track_id": "5W8HXMOMLtXLz0RGKUtnlZ"
+        },
+        {
+            "place": 79,
+            "title": "In The Bible",
+            "group": "Drake Featuring Lil Durk & Giveon",
+            "track_id": "2G7V7zsVDxg1yRsu7Ew9RJ"
+        },
+        {
+            "place": 80,
+            "title": "Chosen",
+            "group": "Blxst & Tyga Featuring Ty Dolla $ign",
+            "track_id": "5qxMKiZ3iyRfw0n7c57n00"
+        },
+        {
+            "place": 81,
+            "title": "Bad Morning",
+            "group": "YoungBoy Never Broke Again",
+            "track_id": "2fpTRcMLt4aKlqULOwuXUP"
+        },
+        {
+            "place": 82,
+            "title": "Yonaguni",
+            "group": "Bad Bunny",
+            "track_id": "7FuyZvm8Bc4Cb56KPwWFpc"
+        },
+        {
+            "place": 83,
+            "title": "The Feels",
+            "group": "TWICE",
+            "track_id": "308Ir17KlNdlrbVLHWhlLe"
+        },
+        {
+            "place": 84,
+            "title": "Summer Of Love",
+            "group": "Shawn Mendes & Tainy",
+            "track_id": "0z8hI3OPS8ADPWtoCjjLl6"
+        },
+        {
+            "place": 85,
+            "title": "Get Into It (Yuh)",
+            "group": "Doja Cat",
+            "track_id": "0W6I02J9xcqK8MtSeosEXb"
+        },
+        {
+            "place": 86,
+            "title": "Nevada",
+            "group": "YoungBoy Never Broke Again",
+            "track_id": "2cEnKRR4dYBB2VA1mjlb1z"
+        },
+        {
+            "place": 87,
+            "title": "Waves",
+            "group": "Luke Bryan",
+            "track_id": "1HFfMOxCAT4GAwaPfCdmUs"
+        },
+        {
+            "place": 88,
+            "title": "Life Support",
+            "group": "YoungBoy Never Broke Again",
+            "track_id": "6K2anECyrckidwf5wxS78Q"
+        },
+        {
+            "place": 89,
+            "title": "Me (FWM)",
+            "group": "Meek Mill Featuring A$AP Ferg",
+            "track_id": "4IfJuDOnqRfVVnzsDaqPeL"
+        },
+        {
+            "place": 90,
+            "title": "Love Train",
+            "group": "Meek Mill",
+            "track_id": "7u5305l9KSUD6hKfpl3QSQ"
+        },
+        {
+            "place": 91,
+            "title": "Feelin Like Tunechi",
+            "group": "Lil Wayne Featuring Rich The Kid",
+            "track_id": "4HTY26kzdGCKJF1EqcRd2J"
+        },
+        {
+            "place": 92,
+            "title": "One Mississippi",
+            "group": "Kane Brown",
+            "track_id": "3jssTC7PSagUxCcFT2VqB2"
+        },
+        {
+            "place": 93,
+            "title": "Ghost",
+            "group": "Justin Bieber",
+            "track_id": "6I3mqTwhRpn34SLVafSH7G"
+        },
+        {
+            "place": 94,
+            "title": "Sand In My Boots",
+            "group": "Morgan Wallen",
+            "track_id": "55yAsBTAFoRABqhWzFAWGG"
+        },
+        {
+            "place": 95,
+            "title": "Ride For You",
+            "group": "Meek Mill Featuring Kehlani",
+            "track_id": "3F0oycTNl4qYAFJFOJe2RQ"
+        },
+        {
+            "place": 96,
+            "title": "Esta Danada",
+            "group": "Ivan Cornejo",
+            "track_id": "0ciLo7Ntd7Gfc0rQRTgkSG"
+        },
+        {
+            "place": 97,
+            "title": "Whiskey And Rain",
+            "group": "Michael Ray",
+            "track_id": "2l7qZ830bAu2ChvbdOIcOJ"
+        },
+        {
+            "place": 98,
+            "title": "TSU",
+            "group": "Drake",
+            "track_id": "5ST3UK8GutjvyZuyxAhgvw"
+        },
+        {
+            "place": 99,
+            "title": "Love All",
+            "group": "Drake Featuring JAY-Z",
+            "track_id": "7LR85XLWw2yXqKBSI5brbG"
+        },
+        {
+            "place": 100,
+            "title": "No Where",
+            "group": "YoungBoy Never Broke Again",
+            "track_id": "2fpTRcMLt4aKlqULOwuXUP"
+        }
+    ]
+}
