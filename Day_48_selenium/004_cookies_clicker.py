@@ -36,6 +36,7 @@ def buy_available_upgrades():
     for upgrade in upgrades.find_elements(By.CSS_SELECTOR, '.enabled'):
         while 'enabled' in upgrade.get_attribute('class'):
             upgrade.click()
+            sleep(0.1)
 
 
 def buy_available_products():
@@ -44,28 +45,26 @@ def buy_available_products():
     for product in unlocked:
         while 'enabled' in product.get_attribute('class'):
             product.click()
+            sleep(0.1)
 
 
 def click_shimmer_if_exists():
     for shimmer in shimmers.find_elements(By.CLASS_NAME, 'shimmer'):
         shimmer.click()
         print("Shimmer was clicked")
+        sleep(0.5)
+
 
 def save_game():
-    # Open menu Options
-    driver.find_element(By.CSS_SELECTOR, "#prefsButton div.subButton").click()
+    driver.find_element(By.CSS_SELECTOR, "#prefsButton div.subButton").click()  # Open menu Options
     sleep(0.1)
-    # Open Export save
-    driver.find_element(By.LINK_TEXT, "Export save").click()
+    driver.find_element(By.LINK_TEXT, "Export save").click()  # Open Export save
     sleep(0.1)
-    # Copy save code
-    save_code = driver.find_element(By.ID, "textareaPrompt").text
+    save_code = driver.find_element(By.ID, "textareaPrompt").text  # Copy save code
     sleep(0.1)
-    # Close Export save
-    driver.find_element(By.ID, "promptOption0").click()
+    driver.find_element(By.ID, "promptOption0").click()  # Close Export save
     sleep(0.1)
-    # Close Options
-    driver.find_element(By.CSS_SELECTOR, "#menu div.menuClose").click()
+    driver.find_element(By.CSS_SELECTOR, "#menu div.menuClose").click()  # Close Options
     sleep(0.1)
 
     data_to_file = {
@@ -80,25 +79,21 @@ def save_game():
     print(data_to_file)
     print("\n")
 
+
 def load_game():
-    save_code = ""
     with open(Path('./save.json'), encoding='utf-8') as json_file:
         save_code = json.loads(json_file.read()).get("save_code")
-    # Open menu Options
-    driver.find_element(By.CSS_SELECTOR, "#prefsButton div.subButton").click()
+    driver.find_element(By.CSS_SELECTOR, "#prefsButton div.subButton").click()  # Open menu Options
     sleep(0.1)
-    # Open Export save
-    driver.find_element(By.LINK_TEXT, "Import save").click()
+    driver.find_element(By.LINK_TEXT, "Import save").click()  # Open Export save
     sleep(0.1)
-    # Paste code
-    driver.find_element(By.ID, "textareaPrompt").send_keys(save_code)
+    driver.find_element(By.ID, "textareaPrompt").send_keys(save_code)  # Paste code
     sleep(0.1)
-    # Load
-    driver.find_element(By.ID, "promptOption0").click()
+    driver.find_element(By.ID, "promptOption0").click()  # Load
     sleep(0.1)
-    # Close Options
-    driver.find_element(By.CSS_SELECTOR, "#menu div.menuClose").click()
+    driver.find_element(By.CSS_SELECTOR, "#menu div.menuClose").click()  # Close Options
     sleep(0.1)
+
 
 seconds_timer_stop = time() + 5
 minutes_timer_stop = time() + 5 * 60
