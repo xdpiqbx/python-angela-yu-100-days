@@ -8,6 +8,7 @@ from selenium.common.exceptions import (StaleElementReferenceException,
                                         ElementClickInterceptedException,
                                         ElementNotInteractableException,
                                         WebDriverException)
+from urllib3.exceptions import MaxRetryError
 
 url = "https://orteil.dashnet.org/cookieclicker/"
 
@@ -36,6 +37,7 @@ def buy_available_upgrades():
     for upgrade in upgrades.find_elements(By.CSS_SELECTOR, '.enabled'):
         while 'enabled' in upgrade.get_attribute('class'):
             upgrade.click()
+            print("buy_available_upgrades")
             sleep(0.1)
 
 
@@ -45,14 +47,15 @@ def buy_available_products():
     for product in unlocked:
         while 'enabled' in product.get_attribute('class'):
             product.click()
+            print("buy_available_product")
             sleep(0.1)
 
 
 def click_shimmer_if_exists():
     for shimmer in shimmers.find_elements(By.CLASS_NAME, 'shimmer'):
         shimmer.click()
-        print("Shimmer was clicked")
-        sleep(0.5)
+        print("click_shimmer_if_exists")
+        sleep(0.1)
 
 
 def save_game():
@@ -116,15 +119,29 @@ while True:
             except (StaleElementReferenceException,
                     ElementClickInterceptedException,
                     ElementNotInteractableException,
-                    WebDriverException) as error:
+                    WebDriverException,
+                    KeyboardInterrupt,
+                    MaxRetryError) as error:
+                print("Error while buy")
                 print(str(error))
             seconds_timer_stop = time() + 5
 
     except (ElementClickInterceptedException,
             ElementNotInteractableException,
-            WebDriverException) as error:
+            StaleElementReferenceException,
+            WebDriverException,
+            KeyboardInterrupt,
+            MaxRetryError) as error:
+        print("Error while click or shimmer")
         print(str(error))
 
     if minutes_timer_stop < time():
-        save_game()
-        minutes_timer_stop = time() + 5 * 60
+        try:
+            save_game()
+            minutes_timer_stop = time() + 5 * 60
+        except (ElementClickInterceptedException,
+                ElementNotInteractableException,
+                StaleElementReferenceException,
+                WebDriverException) as error:
+            print("Error while save")
+            print(str(error))
