@@ -1,4 +1,13 @@
+import os
+import re
+import json
 import requests
+from pathlib import Path
+from dataclasses import dataclass
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 URL_ZILLOW = ''.join([
     'https://www.zillow.com/search/GetSearchPageState.htm?',
@@ -6,14 +15,14 @@ URL_ZILLOW = ''.join([
     '{"north":45.934765171573396,"east":-121.17736409101153,"south":44.92673760314442,"west":-123.65752766523028},'
     '"usersSearchTerm":"Portland OR","regionSelection":[{"regionId":13373,"regionType":6}],"isMapVisible":true,',
     '"filterState":{"price":{"max":268848,"min":192034},"beds":{"min":1},"isForSaleForeclosure":{"value":false},',
-    '"monthlyPayment":{"max":1400,"min":1000},"isAuction":{"value":false},"isNewConstruction":{"value":false},'
+    '"monthlyPayment":{"max":1100,"min":800},"isAuction":{"value":false},"isNewConstruction":{"value":false},'
     '"isForRent":{"value":true},"isForSaleByOwner":{"value":false},"isComingSoon":{"value":false},',
     '"isForSaleByAgent":{"value":false}},"isListVisible":true,"mapZoom":9}',
     '&wants={"cat1":["listResults","mapResults"]}&requestId=11'
 ])
 
 cookies = {
-    "_pxvid": "0f03dacd-36d0-11ee-bfd1-cc7a1b999b67",
+    "_pxvid": os.environ['ZILLOW_PXVID'],
 }
 
 headers = {
@@ -34,10 +43,63 @@ headers = {
 }
 
 
+def get_from_json() -> dict:
+    with open(Path('zillow.json')) as json_file:
+        return json.loads(json_file.read())
+
+
+def get_normalized_price(item):
+    price = item.get("hdpData", {}).get("homeInfo", {}).get("priceForHDP", None)
+    if not price:
+        price = item.get("price", None)
+        price = float(re.sub("[$,+/mo]", "", price)) if price else None
+        if not price:
+            price = item.get("units", {})[0].get("price", None)
+            price = float(re.sub("[$,+]", "", price)) if price else None
+    return price
+
+
+def get_normalized_url(raw_url: str):
+    if raw_url.startswith("https://"):
+        return raw_url
+    return "https://www.zillow.com" + raw_url
+
+
+@dataclass(frozen=True)
+class Apartment:
+    url: str
+    address: str
+    price: float
+
+
 class Zillow:
     def __init__(self):
-        print(URL_ZILLOW)
         response = requests.get(URL_ZILLOW, headers=headers, cookies=cookies)
-        json = response.json()
-        print(type(json))
-        print(json)
+        self.json_data = response.json()
+        # self.json_data = get_from_json()
+        self.apartments = iter
+        self.length = 0
+
+    def __convert_json_to_apartment_list(self):
+        listResults = self.json_data['cat1']['searchResults']['listResults']
+        mapResults = self.json_data['cat1']['searchResults']['mapResults']
+
+        self.length = len(listResults) + len(mapResults)
+
+        self.json_data.clear()
+        self.apartments = (
+            Apartment(
+                get_normalized_url(item["detailUrl"]),
+                item["address"],
+                get_normalized_price(item)
+            )
+            for item in [*listResults, *mapResults]
+        )
+
+    def get_apartments(self):
+        self.__convert_json_to_apartment_list()
+        print(f"I found {self.length} apartments.")
+        return self.apartments
+
+    def get_len(self):
+        return self.length
