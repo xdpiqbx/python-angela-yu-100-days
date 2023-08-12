@@ -8,6 +8,7 @@ python-dotenv = "*"
 selenium = "*"
 requests = "*"
 flask = "*"
+djlint = "*"
 
 [dev-packages]
 
