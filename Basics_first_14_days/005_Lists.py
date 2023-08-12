@@ -102,6 +102,8 @@
 #
 #
 import math
+
+
 # def make_stickers(details_count: int, robot_part: str) -> list:
 #     stickers_list = []
 #     for n in range(1, details_count + 1):
@@ -167,5 +169,15 @@ import math
 #
 # print(get_speed_statistic([9]))
 
+# ============================================= Split list on chunks
+def list_to_chunks(lst, chunk_size: int):
+    for i in range(0, len(lst), chunk_size):
+        yield lst[i:i + chunk_size]
 
 
+sequence1: list[int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sequence2: tuple[int, ...] = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+sequence3: dict[str, int] = {"one": 1, "two": 2, "three": 3}
+
+print(list(list_to_chunks(sequence1, 4)))
+print(list(list_to_chunks(sequence2, 4)))
