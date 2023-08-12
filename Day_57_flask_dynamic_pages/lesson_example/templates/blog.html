@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Articles</title>
+</head>
+<body>
+  <h1>Blog</h1>
+  {% for post in posts %}
+  <div>
+    {% if post.get('id') == num or not num%}
+      <h2>{{post.get('title')}}</h2>
+      <h3>{{post.get('subtitle')}}</h3>
+      <p>{{post.get('body')}}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</body>
+</html>
