@@ -1,4 +1,4 @@
-.gradient-background {
+.gradient-background, div[role="dialog"].offcanvas{
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
@@ -25,4 +25,18 @@
 .profile-img {
   height: 100px;
   border-radius: 50%;
+}
+
+div[role="dialog"] .nav-link:hover{
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.nav-link{
+    border-radius: 5px;
 }
