@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{title}}{% endblock title %}
+{% block main %}
+<!-- Main Content-->
+  <form class="mt-5" method="post" action="{{ url_for(form_action) }}">
+    <div class="mb-3">
+      <label for="name_input" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name_input" name="username">
+    </div>
+    <div class="mb-3">
+      <label for="password_input" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password_input" name="password">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+{% endblock main %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{{title}}{% endblock title %}
+{% block main %}
+<!-- Main Content-->
+<ul class="list-group mt-5">
+  <li class="list-group-item">{{ credentials.get('username') }}</li>
+  <li class="list-group-item">{{ credentials.get('password') }}</li>
+</ul>
+{% endblock main %}
