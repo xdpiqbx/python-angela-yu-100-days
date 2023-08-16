@@ -1,6 +1,9 @@
+from pprint import pprint
+
 from flask import Flask, render_template, redirect
 from post import Post
-
+from flask import request
+from notification_manager import NotificationManager
 
 app = Flask(__name__)
 
@@ -61,9 +64,32 @@ def contact():
     return render_template(
         "contact.html",
         title="Blog | Contact",
+        form_action="send_message",
         header_data={
             "title": "Contact Me",
             "subtitle": "Have questions? I have answers",
+            "bg_image_url": "/static/assets/img/contact-bg.jpg"
+        }
+    )
+
+@app.route('/send_message', methods=['POST'])
+def send_message():
+    # Here normally validate data.
+    data = {
+        "name": request.form['name'],
+        "email": request.form['email'],
+        "phone": request.form['phone'],
+        "message": request.form['message'],
+    }
+    nm = NotificationManager(data)
+    nm.send_email()
+    return render_template(
+        "message_submitted.html",
+        title="Blog | Successfully send",
+        name=data.get("name"),
+        header_data={
+            "title": "Successfully send your message",
+            "subtitle": "Have a good day =)",
             "bg_image_url": "/static/assets/img/contact-bg.jpg"
         }
     )
