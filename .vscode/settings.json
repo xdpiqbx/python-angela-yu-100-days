@@ -1,6 +1,0 @@
-{
-    "python.analysis.typeCheckingMode": "basic",
-    "python.pipenvPath": ".venv/bin/python",
-    "python.terminal.activateEnvironment": true,
-    "djlint.pythonPath": "../.venv/Scripts",
-}
