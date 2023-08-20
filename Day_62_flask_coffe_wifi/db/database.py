@@ -1,8 +1,9 @@
+import os
 import csv
 from typing import Protocol
 
-from add_caffe_form import AddCafe
-from caffe import Caffe
+from caffe.caffe import Caffe
+from caffe.add_caffe_form import AddCafe
 
 
 class Database(Protocol):
@@ -15,8 +16,14 @@ class Database(Protocol):
 
 class CSVDatabase:
     def __init__(self):
-        # print("Current working directory:", os.getcwd())
-        self.db = './db/cafe-data.csv'
+        db_directory = os.path.dirname(__file__)
+        csv_file_path = os.path.join(db_directory, "cafe-data.csv")
+
+        print("Current working directory:", os.getcwd())
+        print("db_directory:", db_directory)
+        print("csv_file_path:", csv_file_path)
+
+        self.db = csv_file_path
 
     def get_data(self) -> dict[str: list[str], str: list[Caffe]]:
         with open(self.db, newline='', encoding='utf-8') as csv_file:

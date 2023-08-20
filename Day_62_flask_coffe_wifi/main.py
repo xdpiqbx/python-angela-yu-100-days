@@ -1,12 +1,10 @@
-import csv
-
 from flask import Flask, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap5
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 
-from add_caffe_form import AddCafe
+from caffe.add_caffe_form import AddCafe
 from db.database import Database, CSVDatabase
 
 '''
