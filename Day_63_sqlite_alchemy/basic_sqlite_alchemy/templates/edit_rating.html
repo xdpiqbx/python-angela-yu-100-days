@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Edit Book rating{% endblock %}
+{% block content %}
+<p>{{ book.title }}, by {{ book.author }}</p>
+<p>Current book rating: {{ book.rating }}</p>
+<form action="{{ url_for('edit_rating') }}" method="POST">
+    <label>Rating</label>
+    <input type="number" value="{{book.rating}}" step="0.1" min="0" max="10" name="rating"/>
+    <input type="hidden" name="id" value="{{book.id}}" />
+    <button type="submit">Edit rating</button>
+</form>
+<a href=" {{ url_for('home') }} ">Home</a>
+<a href=" {{ url_for('add') }} ">Add New Book</a>
+{% endblock content %}
