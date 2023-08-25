@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Select Movie{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="heading">Select Movie</h1>
+    <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
+        {% for movie in movies %}
+        <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card">
+                <img class="card-img-top h-100" src="{{movie.image}}" alt="{{movie.title}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{movie.title}}</h5>
+                    <p class="card-text">
+                        {{movie.overview}}
+                    </p>
+                    <p class="card-text">
+                        <b>{{movie.release_date}}</b>
+                    </p>
+                    <a href="{{url_for('main.find', mdb_movie_id=movie.mdb_movie_id)}}" class="btn btn-primary">
+                        Add to DB
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
