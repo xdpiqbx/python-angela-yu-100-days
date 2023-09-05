@@ -1,9 +1,10 @@
-{% include "header.html" %}
+{% extends 'base.html' %}
 
+{% block content %}
 <!-- Page Header-->
 <header
   class="masthead"
-  style="background-image: url('../static/assets/img/home-bg.jpg')"
+  style="background-image: url('{{bg_img}}')"
 >
   <div class="container position-relative px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -23,7 +24,7 @@
       <!-- Post preview-->
       {% for post in all_posts %}
       <div class="post-preview">
-        <a href="{{ url_for('show_post', post_id=post.id) }}">
+        <a href="{{ url_for('blog.show_post', post_id=post.id) }}">
           <h2 class="post-title">{{ post.title }}</h2>
           <h3 class="post-subtitle">{{ post.subtitle }}</h3>
         </a>
@@ -32,6 +33,7 @@
           Posted by
           <a href="#">{{post.author}}</a>
           on {{post.date}}
+          <a href="{{ url_for('blog.delete_post', post_id=post.id) }}" title="Remove current post">✘</a>
         </p>
       </div>
       <!-- Divider-->
@@ -40,10 +42,9 @@
 
       <!-- New Post -->
       <div class="d-flex justify-content-end mb-4">
-      <!-- TODO: Adding new posts -->
         <a
           class="btn btn-primary float-right"
-          href="TODO: add code to add_new_post here"
+          href="{{url_for('blog.add_new_post')}}"
           >Create New Post</a
         >
       </div>
@@ -55,5 +56,4 @@
     </div>
   </div>
 </div>
-
-{% include "footer.html" %}
+{% endblock content %}
