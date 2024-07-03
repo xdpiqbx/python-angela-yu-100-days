@@ -14,6 +14,12 @@
 # Binary Types:     bytes, bytearray, memoryview
 # None Type:        NoneType
 
+# ---- Mutable
+# list, dict, set, user-defined-classes
+
+# ---- Immutable
+# str, bool, int, float, tuple, NoneType, range ...
+
 # Example                                       Data Type
 # x = "Hello World"                             str
 # x = 20                                        int

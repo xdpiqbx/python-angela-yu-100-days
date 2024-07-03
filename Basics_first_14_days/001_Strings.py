@@ -42,9 +42,6 @@
 #
 # are = input("What are you? ")  # input - always return string
 # print(are)
-# len(course)
-# course.upper()
-# course.lower()
 # course.title()
 # course.find()  # course.find(text, char_to_find)
 # course.replace()
